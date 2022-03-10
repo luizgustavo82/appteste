@@ -36,7 +36,7 @@ Begin VB.Form Form2
       EndProperty
       Height          =   360
       Left            =   2760
-      TabIndex        =   186
+      TabIndex        =   184
       Top             =   5880
       Width           =   1215
    End
@@ -53,7 +53,7 @@ Begin VB.Form Form2
       EndProperty
       Height          =   360
       Left            =   12600
-      TabIndex        =   25
+      TabIndex        =   23
       Top             =   5880
       Width           =   1935
    End
@@ -417,7 +417,7 @@ Begin VB.Form Form2
          Index           =   82
          Left            =   -62160
          Style           =   2  'Dropdown List
-         TabIndex        =   185
+         TabIndex        =   183
          Top             =   5280
          Width           =   1575
       End
@@ -426,7 +426,7 @@ Begin VB.Form Form2
          Index           =   81
          Left            =   -62160
          Style           =   2  'Dropdown List
-         TabIndex        =   184
+         TabIndex        =   182
          Top             =   4800
          Width           =   1575
       End
@@ -435,7 +435,7 @@ Begin VB.Form Form2
          Index           =   80
          Left            =   -62160
          Style           =   2  'Dropdown List
-         TabIndex        =   183
+         TabIndex        =   181
          Top             =   4320
          Width           =   1575
       End
@@ -444,7 +444,7 @@ Begin VB.Form Form2
          Index           =   79
          Left            =   -62160
          Style           =   2  'Dropdown List
-         TabIndex        =   182
+         TabIndex        =   180
          Top             =   3840
          Width           =   1575
       End
@@ -453,7 +453,7 @@ Begin VB.Form Form2
          Index           =   78
          Left            =   -62160
          Style           =   2  'Dropdown List
-         TabIndex        =   181
+         TabIndex        =   179
          Top             =   3360
          Width           =   1575
       End
@@ -462,7 +462,7 @@ Begin VB.Form Form2
          Index           =   77
          Left            =   -62160
          Style           =   2  'Dropdown List
-         TabIndex        =   180
+         TabIndex        =   178
          Top             =   2880
          Width           =   1575
       End
@@ -471,7 +471,7 @@ Begin VB.Form Form2
          Index           =   76
          Left            =   -62160
          Style           =   2  'Dropdown List
-         TabIndex        =   179
+         TabIndex        =   177
          Top             =   2400
          Width           =   1575
       End
@@ -480,7 +480,7 @@ Begin VB.Form Form2
          Index           =   75
          Left            =   -62160
          Style           =   2  'Dropdown List
-         TabIndex        =   178
+         TabIndex        =   176
          Top             =   1920
          Width           =   1575
       End
@@ -489,7 +489,7 @@ Begin VB.Form Form2
          Index           =   74
          Left            =   -62160
          Style           =   2  'Dropdown List
-         TabIndex        =   177
+         TabIndex        =   175
          Top             =   1440
          Width           =   1575
       End
@@ -498,7 +498,7 @@ Begin VB.Form Form2
          Index           =   73
          Left            =   -62160
          Style           =   2  'Dropdown List
-         TabIndex        =   176
+         TabIndex        =   174
          Top             =   960
          Width           =   1575
       End
@@ -507,7 +507,7 @@ Begin VB.Form Form2
          Index           =   72
          Left            =   -69840
          Style           =   2  'Dropdown List
-         TabIndex        =   175
+         TabIndex        =   173
          Top             =   4920
          Width           =   1575
       End
@@ -516,7 +516,7 @@ Begin VB.Form Form2
          Index           =   71
          Left            =   -69840
          Style           =   2  'Dropdown List
-         TabIndex        =   174
+         TabIndex        =   172
          Top             =   4440
          Width           =   1575
       End
@@ -525,7 +525,7 @@ Begin VB.Form Form2
          Index           =   70
          Left            =   -69840
          Style           =   2  'Dropdown List
-         TabIndex        =   173
+         TabIndex        =   171
          Top             =   3960
          Width           =   1575
       End
@@ -534,7 +534,7 @@ Begin VB.Form Form2
          Index           =   69
          Left            =   -69840
          Style           =   2  'Dropdown List
-         TabIndex        =   172
+         TabIndex        =   170
          Top             =   3480
          Width           =   1575
       End
@@ -543,7 +543,7 @@ Begin VB.Form Form2
          Index           =   68
          Left            =   -69840
          Style           =   2  'Dropdown List
-         TabIndex        =   171
+         TabIndex        =   169
          Top             =   3000
          Width           =   1575
       End
@@ -552,7 +552,7 @@ Begin VB.Form Form2
          Index           =   67
          Left            =   -69840
          Style           =   2  'Dropdown List
-         TabIndex        =   170
+         TabIndex        =   168
          Top             =   2520
          Width           =   1575
       End
@@ -561,7 +561,7 @@ Begin VB.Form Form2
          Index           =   66
          Left            =   -69840
          Style           =   2  'Dropdown List
-         TabIndex        =   169
+         TabIndex        =   167
          Top             =   2040
          Width           =   1575
       End
@@ -570,7 +570,7 @@ Begin VB.Form Form2
          Index           =   65
          Left            =   -69840
          Style           =   2  'Dropdown List
-         TabIndex        =   168
+         TabIndex        =   166
          Top             =   1560
          Width           =   1575
       End
@@ -579,7 +579,7 @@ Begin VB.Form Form2
          Index           =   64
          Left            =   -69840
          Style           =   2  'Dropdown List
-         TabIndex        =   167
+         TabIndex        =   165
          Top             =   1080
          Width           =   1575
       End
@@ -588,7 +588,7 @@ Begin VB.Form Form2
          Index           =   63
          Left            =   -62160
          Style           =   2  'Dropdown List
-         TabIndex        =   166
+         TabIndex        =   164
          Top             =   480
          Width           =   1575
       End
@@ -597,7 +597,7 @@ Begin VB.Form Form2
          Index           =   62
          Left            =   -69840
          Style           =   2  'Dropdown List
-         TabIndex        =   165
+         TabIndex        =   163
          Top             =   600
          Width           =   1575
       End
@@ -606,7 +606,7 @@ Begin VB.Form Form2
          Index           =   61
          Left            =   -62640
          Style           =   2  'Dropdown List
-         TabIndex        =   164
+         TabIndex        =   162
          Top             =   3120
          Width           =   1575
       End
@@ -615,7 +615,7 @@ Begin VB.Form Form2
          Index           =   60
          Left            =   -62640
          Style           =   2  'Dropdown List
-         TabIndex        =   163
+         TabIndex        =   161
          Top             =   2640
          Width           =   1575
       End
@@ -624,7 +624,7 @@ Begin VB.Form Form2
          Index           =   59
          Left            =   -62640
          Style           =   2  'Dropdown List
-         TabIndex        =   162
+         TabIndex        =   160
          Top             =   2160
          Width           =   1575
       End
@@ -633,7 +633,7 @@ Begin VB.Form Form2
          Index           =   58
          Left            =   -62640
          Style           =   2  'Dropdown List
-         TabIndex        =   161
+         TabIndex        =   159
          Top             =   1680
          Width           =   1575
       End
@@ -642,7 +642,7 @@ Begin VB.Form Form2
          Index           =   57
          Left            =   -62640
          Style           =   2  'Dropdown List
-         TabIndex        =   160
+         TabIndex        =   158
          Top             =   1200
          Width           =   1575
       End
@@ -651,7 +651,7 @@ Begin VB.Form Form2
          Index           =   56
          Left            =   -62640
          Style           =   2  'Dropdown List
-         TabIndex        =   159
+         TabIndex        =   157
          Top             =   720
          Width           =   1575
       End
@@ -660,7 +660,7 @@ Begin VB.Form Form2
          Index           =   55
          Left            =   -69720
          Style           =   2  'Dropdown List
-         TabIndex        =   158
+         TabIndex        =   156
          Top             =   4560
          Width           =   1575
       End
@@ -669,7 +669,7 @@ Begin VB.Form Form2
          Index           =   54
          Left            =   -69720
          Style           =   2  'Dropdown List
-         TabIndex        =   157
+         TabIndex        =   155
          Top             =   4080
          Width           =   1575
       End
@@ -678,7 +678,7 @@ Begin VB.Form Form2
          Index           =   53
          Left            =   -69720
          Style           =   2  'Dropdown List
-         TabIndex        =   156
+         TabIndex        =   154
          Top             =   3600
          Width           =   1575
       End
@@ -687,7 +687,7 @@ Begin VB.Form Form2
          Index           =   52
          Left            =   -69720
          Style           =   2  'Dropdown List
-         TabIndex        =   155
+         TabIndex        =   153
          Top             =   3120
          Width           =   1575
       End
@@ -696,7 +696,7 @@ Begin VB.Form Form2
          Index           =   51
          Left            =   -69720
          Style           =   2  'Dropdown List
-         TabIndex        =   154
+         TabIndex        =   152
          Top             =   2640
          Width           =   1575
       End
@@ -705,7 +705,7 @@ Begin VB.Form Form2
          Index           =   50
          Left            =   -69720
          Style           =   2  'Dropdown List
-         TabIndex        =   153
+         TabIndex        =   151
          Top             =   2160
          Width           =   1575
       End
@@ -714,7 +714,7 @@ Begin VB.Form Form2
          Index           =   49
          Left            =   -69720
          Style           =   2  'Dropdown List
-         TabIndex        =   152
+         TabIndex        =   150
          Top             =   1680
          Width           =   1575
       End
@@ -723,7 +723,7 @@ Begin VB.Form Form2
          Index           =   48
          Left            =   -69720
          Style           =   2  'Dropdown List
-         TabIndex        =   151
+         TabIndex        =   149
          Top             =   1200
          Width           =   1575
       End
@@ -732,7 +732,7 @@ Begin VB.Form Form2
          Index           =   47
          Left            =   -69720
          Style           =   2  'Dropdown List
-         TabIndex        =   150
+         TabIndex        =   148
          Top             =   720
          Width           =   1575
       End
@@ -741,7 +741,7 @@ Begin VB.Form Form2
          Index           =   46
          Left            =   -63000
          Style           =   2  'Dropdown List
-         TabIndex        =   149
+         TabIndex        =   147
          Top             =   3600
          Width           =   1575
       End
@@ -750,7 +750,7 @@ Begin VB.Form Form2
          Index           =   45
          Left            =   -63000
          Style           =   2  'Dropdown List
-         TabIndex        =   148
+         TabIndex        =   146
          Top             =   3120
          Width           =   1575
       End
@@ -759,7 +759,7 @@ Begin VB.Form Form2
          Index           =   44
          Left            =   -63000
          Style           =   2  'Dropdown List
-         TabIndex        =   147
+         TabIndex        =   145
          Top             =   2640
          Width           =   1575
       End
@@ -768,7 +768,7 @@ Begin VB.Form Form2
          Index           =   43
          Left            =   -63000
          Style           =   2  'Dropdown List
-         TabIndex        =   146
+         TabIndex        =   144
          Top             =   2160
          Width           =   1575
       End
@@ -777,7 +777,7 @@ Begin VB.Form Form2
          Index           =   42
          Left            =   -63000
          Style           =   2  'Dropdown List
-         TabIndex        =   145
+         TabIndex        =   143
          Top             =   1680
          Width           =   1575
       End
@@ -786,7 +786,7 @@ Begin VB.Form Form2
          Index           =   41
          Left            =   -63000
          Style           =   2  'Dropdown List
-         TabIndex        =   144
+         TabIndex        =   142
          Top             =   1200
          Width           =   1575
       End
@@ -795,7 +795,7 @@ Begin VB.Form Form2
          Index           =   40
          Left            =   -63000
          Style           =   2  'Dropdown List
-         TabIndex        =   143
+         TabIndex        =   141
          Top             =   720
          Width           =   1575
       End
@@ -804,7 +804,7 @@ Begin VB.Form Form2
          Index           =   39
          Left            =   -69600
          Style           =   2  'Dropdown List
-         TabIndex        =   142
+         TabIndex        =   140
          Top             =   4560
          Width           =   1575
       End
@@ -813,7 +813,7 @@ Begin VB.Form Form2
          Index           =   38
          Left            =   -69600
          Style           =   2  'Dropdown List
-         TabIndex        =   141
+         TabIndex        =   139
          Top             =   4080
          Width           =   1575
       End
@@ -822,7 +822,7 @@ Begin VB.Form Form2
          Index           =   37
          Left            =   -69600
          Style           =   2  'Dropdown List
-         TabIndex        =   140
+         TabIndex        =   138
          Top             =   3600
          Width           =   1575
       End
@@ -831,7 +831,7 @@ Begin VB.Form Form2
          Index           =   36
          Left            =   -69600
          Style           =   2  'Dropdown List
-         TabIndex        =   139
+         TabIndex        =   137
          Top             =   3120
          Width           =   1575
       End
@@ -840,7 +840,7 @@ Begin VB.Form Form2
          Index           =   35
          Left            =   -69600
          Style           =   2  'Dropdown List
-         TabIndex        =   138
+         TabIndex        =   136
          Top             =   2640
          Width           =   1575
       End
@@ -849,7 +849,7 @@ Begin VB.Form Form2
          Index           =   34
          Left            =   -69600
          Style           =   2  'Dropdown List
-         TabIndex        =   137
+         TabIndex        =   135
          Top             =   2160
          Width           =   1575
       End
@@ -858,7 +858,7 @@ Begin VB.Form Form2
          Index           =   33
          Left            =   -69600
          Style           =   2  'Dropdown List
-         TabIndex        =   136
+         TabIndex        =   134
          Top             =   1680
          Width           =   1575
       End
@@ -867,7 +867,7 @@ Begin VB.Form Form2
          Index           =   32
          Left            =   -69600
          Style           =   2  'Dropdown List
-         TabIndex        =   135
+         TabIndex        =   133
          Top             =   1200
          Width           =   1575
       End
@@ -876,7 +876,7 @@ Begin VB.Form Form2
          Index           =   31
          Left            =   -69600
          Style           =   2  'Dropdown List
-         TabIndex        =   134
+         TabIndex        =   132
          Top             =   720
          Width           =   1575
       End
@@ -885,7 +885,7 @@ Begin VB.Form Form2
          Index           =   14
          Left            =   9480
          Style           =   2  'Dropdown List
-         TabIndex        =   133
+         TabIndex        =   131
          Top             =   960
          Width           =   1575
       End
@@ -894,7 +894,7 @@ Begin VB.Form Form2
          Index           =   13
          Left            =   9480
          Style           =   2  'Dropdown List
-         TabIndex        =   132
+         TabIndex        =   130
          Top             =   1320
          Width           =   1575
       End
@@ -903,7 +903,7 @@ Begin VB.Form Form2
          Index           =   12
          Left            =   9480
          Style           =   2  'Dropdown List
-         TabIndex        =   131
+         TabIndex        =   129
          Top             =   1680
          Width           =   1575
       End
@@ -912,7 +912,7 @@ Begin VB.Form Form2
          Index           =   4
          Left            =   3480
          Style           =   2  'Dropdown List
-         TabIndex        =   130
+         TabIndex        =   128
          Top             =   2400
          Width           =   1575
       End
@@ -921,7 +921,7 @@ Begin VB.Form Form2
          Index           =   30
          Left            =   13920
          Style           =   2  'Dropdown List
-         TabIndex        =   129
+         TabIndex        =   127
          Top             =   4080
          Width           =   1575
       End
@@ -930,7 +930,7 @@ Begin VB.Form Form2
          Index           =   29
          Left            =   13920
          Style           =   2  'Dropdown List
-         TabIndex        =   128
+         TabIndex        =   126
          Top             =   3240
          Width           =   1575
       End
@@ -939,7 +939,7 @@ Begin VB.Form Form2
          Index           =   28
          Left            =   13920
          Style           =   2  'Dropdown List
-         TabIndex        =   127
+         TabIndex        =   125
          Top             =   2400
          Width           =   1575
       End
@@ -948,7 +948,7 @@ Begin VB.Form Form2
          Index           =   27
          Left            =   13920
          Style           =   2  'Dropdown List
-         TabIndex        =   126
+         TabIndex        =   124
          Top             =   2040
          Width           =   1575
       End
@@ -957,7 +957,7 @@ Begin VB.Form Form2
          Index           =   26
          Left            =   13920
          Style           =   2  'Dropdown List
-         TabIndex        =   125
+         TabIndex        =   123
          Top             =   1680
          Width           =   1575
       End
@@ -966,7 +966,7 @@ Begin VB.Form Form2
          Index           =   25
          Left            =   13920
          Style           =   2  'Dropdown List
-         TabIndex        =   124
+         TabIndex        =   122
          Top             =   1320
          Width           =   1575
       End
@@ -975,7 +975,7 @@ Begin VB.Form Form2
          Index           =   24
          Left            =   13920
          Style           =   2  'Dropdown List
-         TabIndex        =   123
+         TabIndex        =   121
          Top             =   960
          Width           =   1575
       End
@@ -984,7 +984,7 @@ Begin VB.Form Form2
          Index           =   23
          Left            =   9480
          Style           =   2  'Dropdown List
-         TabIndex        =   122
+         TabIndex        =   120
          Top             =   4920
          Width           =   1575
       End
@@ -993,7 +993,7 @@ Begin VB.Form Form2
          Index           =   22
          Left            =   9480
          Style           =   2  'Dropdown List
-         TabIndex        =   121
+         TabIndex        =   119
          Top             =   4560
          Width           =   1575
       End
@@ -1002,7 +1002,7 @@ Begin VB.Form Form2
          Index           =   21
          Left            =   9480
          Style           =   2  'Dropdown List
-         TabIndex        =   120
+         TabIndex        =   118
          Top             =   4200
          Width           =   1575
       End
@@ -1011,7 +1011,7 @@ Begin VB.Form Form2
          Index           =   20
          Left            =   9480
          Style           =   2  'Dropdown List
-         TabIndex        =   119
+         TabIndex        =   117
          Top             =   3840
          Width           =   1575
       End
@@ -1020,7 +1020,7 @@ Begin VB.Form Form2
          Index           =   19
          Left            =   9480
          Style           =   2  'Dropdown List
-         TabIndex        =   118
+         TabIndex        =   116
          Top             =   3480
          Width           =   1575
       End
@@ -1029,7 +1029,7 @@ Begin VB.Form Form2
          Index           =   18
          Left            =   9480
          Style           =   2  'Dropdown List
-         TabIndex        =   117
+         TabIndex        =   115
          Top             =   3120
          Width           =   1575
       End
@@ -1038,7 +1038,7 @@ Begin VB.Form Form2
          Index           =   17
          Left            =   9480
          Style           =   2  'Dropdown List
-         TabIndex        =   116
+         TabIndex        =   114
          Top             =   2760
          Width           =   1575
       End
@@ -1047,7 +1047,7 @@ Begin VB.Form Form2
          Index           =   16
          Left            =   9480
          Style           =   2  'Dropdown List
-         TabIndex        =   115
+         TabIndex        =   113
          Top             =   2400
          Width           =   1575
       End
@@ -1056,7 +1056,7 @@ Begin VB.Form Form2
          Index           =   15
          Left            =   9480
          Style           =   2  'Dropdown List
-         TabIndex        =   114
+         TabIndex        =   112
          Top             =   2040
          Width           =   1575
       End
@@ -1065,7 +1065,7 @@ Begin VB.Form Form2
          Index           =   11
          Left            =   3480
          Style           =   2  'Dropdown List
-         TabIndex        =   113
+         TabIndex        =   111
          Top             =   4920
          Width           =   1575
       End
@@ -1074,7 +1074,7 @@ Begin VB.Form Form2
          Index           =   10
          Left            =   3480
          Style           =   2  'Dropdown List
-         TabIndex        =   112
+         TabIndex        =   110
          Top             =   4560
          Width           =   1575
       End
@@ -1083,7 +1083,7 @@ Begin VB.Form Form2
          Index           =   9
          Left            =   3480
          Style           =   2  'Dropdown List
-         TabIndex        =   111
+         TabIndex        =   109
          Top             =   4200
          Width           =   1575
       End
@@ -1092,7 +1092,7 @@ Begin VB.Form Form2
          Index           =   8
          Left            =   3480
          Style           =   2  'Dropdown List
-         TabIndex        =   110
+         TabIndex        =   108
          Top             =   3840
          Width           =   1575
       End
@@ -1101,7 +1101,7 @@ Begin VB.Form Form2
          Index           =   7
          Left            =   3480
          Style           =   2  'Dropdown List
-         TabIndex        =   109
+         TabIndex        =   107
          Top             =   3480
          Width           =   1575
       End
@@ -1110,7 +1110,7 @@ Begin VB.Form Form2
          Index           =   6
          Left            =   3480
          Style           =   2  'Dropdown List
-         TabIndex        =   108
+         TabIndex        =   106
          Top             =   3120
          Width           =   1575
       End
@@ -1119,7 +1119,7 @@ Begin VB.Form Form2
          Index           =   5
          Left            =   3480
          Style           =   2  'Dropdown List
-         TabIndex        =   107
+         TabIndex        =   105
          Top             =   2760
          Width           =   1575
       End
@@ -1128,7 +1128,7 @@ Begin VB.Form Form2
          Index           =   3
          Left            =   3480
          Style           =   2  'Dropdown List
-         TabIndex        =   106
+         TabIndex        =   104
          Top             =   2040
          Width           =   1575
       End
@@ -1137,7 +1137,7 @@ Begin VB.Form Form2
          Index           =   2
          Left            =   3480
          Style           =   2  'Dropdown List
-         TabIndex        =   105
+         TabIndex        =   103
          Top             =   1680
          Width           =   1575
       End
@@ -1146,7 +1146,7 @@ Begin VB.Form Form2
          Index           =   1
          Left            =   3480
          Style           =   2  'Dropdown List
-         TabIndex        =   104
+         TabIndex        =   102
          Top             =   1320
          Width           =   1575
       End
@@ -1154,7 +1154,7 @@ Begin VB.Form Form2
          Height          =   315
          Left            =   10920
          Style           =   2  'Dropdown List
-         TabIndex        =   103
+         TabIndex        =   101
          Top             =   480
          Width           =   4095
       End
@@ -1163,28 +1163,28 @@ Begin VB.Form Form2
          Index           =   0
          Left            =   3480
          Style           =   2  'Dropdown List
-         TabIndex        =   102
+         TabIndex        =   100
          Top             =   960
          Width           =   1575
       End
       Begin VB.TextBox txtIoty 
          Height          =   1455
          Left            =   -74280
-         TabIndex        =   101
+         TabIndex        =   99
          Top             =   3600
          Width           =   15015
       End
       Begin VB.TextBox txtObservações 
          Height          =   1695
          Left            =   -74280
-         TabIndex        =   100
+         TabIndex        =   98
          Top             =   1200
          Width           =   15015
       End
       Begin TDBNumber6Ctl.TDBNumber TDBCodigo 
          Height          =   375
          Left            =   1440
-         TabIndex        =   24
+         TabIndex        =   22
          Top             =   480
          Width           =   1095
          _Version        =   65536
@@ -1242,7 +1242,7 @@ Begin VB.Form Form2
       Begin MSMask.MaskEdBox MasCodversao 
          Height          =   375
          Left            =   7920
-         TabIndex        =   23
+         TabIndex        =   21
          Top             =   480
          Width           =   975
          _ExtentX        =   1720
@@ -1255,7 +1255,7 @@ Begin VB.Form Form2
       Begin MSMask.MaskEdBox MasData 
          Height          =   375
          Left            =   4200
-         TabIndex        =   22
+         TabIndex        =   20
          Top             =   480
          Width           =   975
          _ExtentX        =   1720
@@ -1273,7 +1273,7 @@ Begin VB.Form Form2
          Caption         =   "Casos Ioty Cadastrados:"
          Height          =   195
          Left            =   -74280
-         TabIndex        =   99
+         TabIndex        =   97
          Top             =   3240
          Width           =   1800
       End
@@ -1283,7 +1283,7 @@ Begin VB.Form Form2
          Caption         =   "Observações Gerais:"
          Height          =   195
          Left            =   -74280
-         TabIndex        =   98
+         TabIndex        =   96
          Top             =   840
          Width           =   1500
       End
@@ -1293,7 +1293,7 @@ Begin VB.Form Form2
          Caption         =   "Fatura Convenio:"
          Height          =   195
          Left            =   -66360
-         TabIndex        =   97
+         TabIndex        =   95
          Top             =   5280
          Width           =   1260
       End
@@ -1303,7 +1303,7 @@ Begin VB.Form Form2
          Caption         =   "Identificação de Cliente:"
          Height          =   195
          Left            =   -66360
-         TabIndex        =   96
+         TabIndex        =   94
          Top             =   4920
          Width           =   1755
       End
@@ -1313,7 +1313,7 @@ Begin VB.Form Form2
          Caption         =   "SGR - Importação de Comanda:"
          Height          =   195
          Left            =   -66360
-         TabIndex        =   95
+         TabIndex        =   93
          Top             =   4440
          Width           =   2280
       End
@@ -1323,7 +1323,7 @@ Begin VB.Form Form2
          Caption         =   "DAV - Faturamento:"
          Height          =   195
          Left            =   -66360
-         TabIndex        =   94
+         TabIndex        =   92
          Top             =   3960
          Width           =   1440
       End
@@ -1333,7 +1333,7 @@ Begin VB.Form Form2
          Caption         =   "DAV - Impressão:"
          Height          =   195
          Left            =   -66360
-         TabIndex        =   93
+         TabIndex        =   91
          Top             =   3480
          Width           =   1260
       End
@@ -1343,7 +1343,7 @@ Begin VB.Form Form2
          Caption         =   "Pedido de Venda:"
          Height          =   195
          Left            =   -66360
-         TabIndex        =   92
+         TabIndex        =   90
          Top             =   3000
          Width           =   1260
       End
@@ -1353,7 +1353,7 @@ Begin VB.Form Form2
          Caption         =   "Entrega:"
          Height          =   195
          Left            =   -66360
-         TabIndex        =   91
+         TabIndex        =   89
          Top             =   2520
          Width           =   630
       End
@@ -1363,7 +1363,7 @@ Begin VB.Form Form2
          Caption         =   "Fidelidade - Resgate por Faixa:"
          Height          =   195
          Left            =   -66360
-         TabIndex        =   90
+         TabIndex        =   88
          Top             =   2040
          Width           =   2250
       End
@@ -1373,7 +1373,7 @@ Begin VB.Form Form2
          Caption         =   "Fidelidade - Tabela Preço Negociação:"
          Height          =   195
          Left            =   -66360
-         TabIndex        =   89
+         TabIndex        =   87
          Top             =   1560
          Width           =   2730
       End
@@ -1383,7 +1383,7 @@ Begin VB.Form Form2
          Caption         =   "Fidelidade - Tabela Formação Preço:"
          Height          =   195
          Left            =   -66360
-         TabIndex        =   88
+         TabIndex        =   86
          Top             =   1080
          Width           =   2610
       End
@@ -1393,7 +1393,7 @@ Begin VB.Form Form2
          Caption         =   "Fidelidade:"
          Height          =   195
          Left            =   -66360
-         TabIndex        =   87
+         TabIndex        =   85
          Top             =   600
          Width           =   780
       End
@@ -1409,7 +1409,7 @@ Begin VB.Form Form2
          Caption         =   "SG - Divergencia Painel SG RV x XML:"
          Height          =   195
          Left            =   -74520
-         TabIndex        =   86
+         TabIndex        =   84
          Top             =   5040
          Width           =   2655
       End
@@ -1419,7 +1419,7 @@ Begin VB.Form Form2
          Caption         =   "SG - Processamento dos Arquivos RV e XML:"
          Height          =   195
          Left            =   -74520
-         TabIndex        =   85
+         TabIndex        =   83
          Top             =   4560
          Width           =   3180
       End
@@ -1429,7 +1429,7 @@ Begin VB.Form Form2
          Caption         =   "Faixa de Numeração:"
          Height          =   195
          Left            =   -74520
-         TabIndex        =   84
+         TabIndex        =   82
          Top             =   4080
          Width           =   1530
       End
@@ -1439,7 +1439,7 @@ Begin VB.Form Form2
          Caption         =   "Pendente (Transmissão):"
          Height          =   195
          Left            =   -74520
-         TabIndex        =   83
+         TabIndex        =   81
          Top             =   3600
          Width           =   1800
       End
@@ -1449,7 +1449,7 @@ Begin VB.Form Form2
          Caption         =   "Pendente (Geração):"
          Height          =   195
          Left            =   -74520
-         TabIndex        =   82
+         TabIndex        =   80
          Top             =   3120
          Width           =   1515
       End
@@ -1459,7 +1459,7 @@ Begin VB.Form Form2
          Caption         =   "Contingencia (Transmissão):"
          Height          =   195
          Left            =   -74520
-         TabIndex        =   81
+         TabIndex        =   79
          Top             =   2640
          Width           =   2040
       End
@@ -1469,7 +1469,7 @@ Begin VB.Form Form2
          Caption         =   "Contingencia (Geração):"
          Height          =   195
          Left            =   -74520
-         TabIndex        =   80
+         TabIndex        =   78
          Top             =   2160
          Width           =   1755
       End
@@ -1479,7 +1479,7 @@ Begin VB.Form Form2
          Caption         =   "Cancelamento:"
          Height          =   195
          Left            =   -74520
-         TabIndex        =   79
+         TabIndex        =   77
          Top             =   1680
          Width           =   1080
       End
@@ -1489,7 +1489,7 @@ Begin VB.Form Form2
          Caption         =   "Impressão DANFE:"
          Height          =   195
          Left            =   -74520
-         TabIndex        =   78
+         TabIndex        =   76
          Top             =   1200
          Width           =   1350
       End
@@ -1499,7 +1499,7 @@ Begin VB.Form Form2
          Caption         =   "Autorização SEFAZ:"
          Height          =   195
          Left            =   -74520
-         TabIndex        =   77
+         TabIndex        =   75
          Top             =   720
          Width           =   1425
       End
@@ -1509,7 +1509,7 @@ Begin VB.Form Form2
          Caption         =   "Finalizadora:"
          Height          =   195
          Left            =   -66360
-         TabIndex        =   76
+         TabIndex        =   74
          Top             =   3240
          Width           =   915
       End
@@ -1519,7 +1519,7 @@ Begin VB.Form Form2
          Caption         =   "Operador:"
          Height          =   195
          Left            =   -66360
-         TabIndex        =   75
+         TabIndex        =   73
          Top             =   2760
          Width           =   750
       End
@@ -1529,7 +1529,7 @@ Begin VB.Form Form2
          Caption         =   "Promoção:"
          Height          =   195
          Left            =   -66360
-         TabIndex        =   74
+         TabIndex        =   72
          Top             =   2280
          Width           =   765
       End
@@ -1539,7 +1539,7 @@ Begin VB.Form Form2
          Caption         =   "Produto Selecionado:"
          Height          =   195
          Left            =   -66360
-         TabIndex        =   73
+         TabIndex        =   71
          Top             =   1800
          Width           =   1530
       End
@@ -1549,7 +1549,7 @@ Begin VB.Form Form2
          Caption         =   "Produto Alterado:"
          Height          =   195
          Left            =   -66360
-         TabIndex        =   72
+         TabIndex        =   70
          Top             =   1320
          Width           =   1290
       End
@@ -1559,7 +1559,7 @@ Begin VB.Form Form2
          Caption         =   "Produto Total:"
          Height          =   195
          Left            =   -66360
-         TabIndex        =   71
+         TabIndex        =   69
          Top             =   840
          Width           =   1035
       End
@@ -1575,7 +1575,7 @@ Begin VB.Form Form2
          Caption         =   "PIX/Pic Pay:"
          Height          =   195
          Left            =   -74520
-         TabIndex        =   70
+         TabIndex        =   68
          Top             =   4680
          Width           =   870
       End
@@ -1585,7 +1585,7 @@ Begin VB.Form Form2
          Caption         =   "Recebimento Venda a Prazo:"
          Height          =   195
          Left            =   -74520
-         TabIndex        =   69
+         TabIndex        =   67
          Top             =   4200
          Width           =   2070
       End
@@ -1595,7 +1595,7 @@ Begin VB.Form Form2
          Caption         =   "Cheque Pré (Teste Opicional):"
          Height          =   195
          Left            =   -74520
-         TabIndex        =   68
+         TabIndex        =   66
          Top             =   3720
          Width           =   2160
       End
@@ -1605,7 +1605,7 @@ Begin VB.Form Form2
          Caption         =   "Cheque (Teste Opcional):"
          Height          =   195
          Left            =   -74520
-         TabIndex        =   67
+         TabIndex        =   65
          Top             =   3240
          Width           =   1845
       End
@@ -1615,7 +1615,7 @@ Begin VB.Form Form2
          Caption         =   "Venda em Duas ou mais Formas de Pagamento:"
          Height          =   195
          Left            =   -74520
-         TabIndex        =   66
+         TabIndex        =   64
          Top             =   2760
          Width           =   3405
       End
@@ -1625,7 +1625,7 @@ Begin VB.Form Form2
          Caption         =   "Convenio Offline:"
          Height          =   195
          Left            =   -74520
-         TabIndex        =   65
+         TabIndex        =   63
          Top             =   2280
          Width           =   1260
       End
@@ -1635,7 +1635,7 @@ Begin VB.Form Form2
          Caption         =   "Convenio Online:"
          Height          =   195
          Left            =   -74520
-         TabIndex        =   64
+         TabIndex        =   62
          Top             =   1800
          Width           =   1230
       End
@@ -1645,7 +1645,7 @@ Begin VB.Form Form2
          Caption         =   "TEF:"
          Height          =   195
          Left            =   -74520
-         TabIndex        =   63
+         TabIndex        =   61
          Top             =   1320
          Width           =   330
       End
@@ -1655,7 +1655,7 @@ Begin VB.Form Form2
          Caption         =   "Dinheiro:"
          Height          =   195
          Left            =   -74520
-         TabIndex        =   62
+         TabIndex        =   60
          Top             =   840
          Width           =   645
       End
@@ -1665,7 +1665,7 @@ Begin VB.Form Form2
          Caption         =   "Site Mercado:"
          Height          =   195
          Left            =   -66360
-         TabIndex        =   61
+         TabIndex        =   59
          Top             =   3720
          Width           =   990
       End
@@ -1675,7 +1675,7 @@ Begin VB.Form Form2
          Caption         =   "Meliuz:"
          Height          =   195
          Left            =   -66360
-         TabIndex        =   60
+         TabIndex        =   58
          Top             =   3240
          Width           =   495
       End
@@ -1685,7 +1685,7 @@ Begin VB.Form Form2
          Caption         =   "Scanntech:"
          Height          =   195
          Left            =   -66360
-         TabIndex        =   59
+         TabIndex        =   57
          Top             =   2760
          Width           =   810
       End
@@ -1695,7 +1695,7 @@ Begin VB.Form Form2
          Caption         =   "MercaFacil:"
          Height          =   195
          Left            =   -66360
-         TabIndex        =   58
+         TabIndex        =   56
          Top             =   2280
          Width           =   810
       End
@@ -1705,7 +1705,7 @@ Begin VB.Form Form2
          Caption         =   "E-promo:"
          Height          =   195
          Left            =   -66360
-         TabIndex        =   57
+         TabIndex        =   55
          Top             =   1800
          Width           =   660
       End
@@ -1715,7 +1715,7 @@ Begin VB.Form Form2
          Caption         =   "Le Cupom:"
          Height          =   195
          Left            =   -66360
-         TabIndex        =   56
+         TabIndex        =   54
          Top             =   1320
          Width           =   765
       End
@@ -1725,7 +1725,7 @@ Begin VB.Form Form2
          Caption         =   "Bonds Club:"
          Height          =   195
          Left            =   -66360
-         TabIndex        =   55
+         TabIndex        =   53
          Top             =   840
          Width           =   855
       End
@@ -1741,7 +1741,7 @@ Begin VB.Form Form2
          Caption         =   "Lista de Produtos (Pague Menos):"
          Height          =   195
          Left            =   -74520
-         TabIndex        =   54
+         TabIndex        =   52
          Top             =   4680
          Width           =   2430
       End
@@ -1751,7 +1751,7 @@ Begin VB.Form Form2
          Caption         =   "Atacarejo (Cadastro de Produto):"
          Height          =   195
          Left            =   -74520
-         TabIndex        =   53
+         TabIndex        =   51
          Top             =   4200
          Width           =   2430
       End
@@ -1761,7 +1761,7 @@ Begin VB.Form Form2
          Caption         =   "Atacarejo (Pague Menos):"
          Height          =   195
          Left            =   -74520
-         TabIndex        =   52
+         TabIndex        =   50
          Top             =   3720
          Width           =   1890
       End
@@ -1771,7 +1771,7 @@ Begin VB.Form Form2
          Caption         =   "Valor do Pack:"
          Height          =   195
          Left            =   -74520
-         TabIndex        =   51
+         TabIndex        =   49
          Top             =   3240
          Width           =   1020
       End
@@ -1781,7 +1781,7 @@ Begin VB.Form Form2
          Caption         =   "Valor de Venda/ Cupom (Combo):"
          Height          =   195
          Left            =   -74520
-         TabIndex        =   50
+         TabIndex        =   48
          Top             =   2760
          Width           =   2400
       End
@@ -1791,7 +1791,7 @@ Begin VB.Form Form2
          Caption         =   "Premio ou Desconto:"
          Height          =   195
          Left            =   -74520
-         TabIndex        =   49
+         TabIndex        =   47
          Top             =   2280
          Width           =   1485
       End
@@ -1801,7 +1801,7 @@ Begin VB.Form Form2
          Caption         =   "Leve e Pague:"
          Height          =   195
          Left            =   -74520
-         TabIndex        =   48
+         TabIndex        =   46
          Top             =   1800
          Width           =   1035
       End
@@ -1811,7 +1811,7 @@ Begin VB.Form Form2
          Caption         =   "Promoção com Quantidade Máxima:"
          Height          =   195
          Left            =   -74520
-         TabIndex        =   47
+         TabIndex        =   45
          Top             =   1320
          Width           =   2565
       End
@@ -1821,7 +1821,7 @@ Begin VB.Form Form2
          Caption         =   "Promoção de Produtos (Promoção Avulsa):"
          Height          =   195
          Left            =   -74520
-         TabIndex        =   46
+         TabIndex        =   44
          Top             =   840
          Width           =   3075
       End
@@ -1833,16 +1833,16 @@ Begin VB.Form Form2
             Name            =   "Tahoma"
             Size            =   9
             Charset         =   0
-            Weight          =   400
+            Weight          =   700
             Underline       =   0   'False
             Italic          =   0   'False
             Strikethrough   =   0   'False
          EndProperty
          Height          =   210
          Left            =   9960
-         TabIndex        =   45
+         TabIndex        =   43
          Top             =   600
-         Width           =   645
+         Width           =   735
       End
       Begin VB.Label lblReimpressãoTodasOpções 
          AutoSize        =   -1  'True
@@ -1850,7 +1850,7 @@ Begin VB.Form Form2
          Caption         =   "Reimpressão - Todas Opções:"
          Height          =   195
          Left            =   11880
-         TabIndex        =   44
+         TabIndex        =   42
          Top             =   3720
          Width           =   2145
       End
@@ -1860,7 +1860,7 @@ Begin VB.Form Form2
          Caption         =   "Validação Campos Impressão Cupom:"
          Height          =   195
          Left            =   11880
-         TabIndex        =   43
+         TabIndex        =   41
          Top             =   2880
          Width           =   2685
       End
@@ -1870,7 +1870,7 @@ Begin VB.Form Form2
          Caption         =   "Recriar XML:"
          Height          =   195
          Left            =   11880
-         TabIndex        =   42
+         TabIndex        =   40
          Top             =   2520
          Width           =   900
       End
@@ -1880,7 +1880,7 @@ Begin VB.Form Form2
          Caption         =   "Recriar RV:"
          Height          =   195
          Left            =   11880
-         TabIndex        =   41
+         TabIndex        =   39
          Top             =   2160
          Width           =   810
       End
@@ -1890,7 +1890,7 @@ Begin VB.Form Form2
          Caption         =   "Fechamento do Dia:"
          Height          =   195
          Left            =   11880
-         TabIndex        =   40
+         TabIndex        =   38
          Top             =   1800
          Width           =   1440
       End
@@ -1900,7 +1900,7 @@ Begin VB.Form Form2
          Caption         =   "Leitura X:"
          Height          =   195
          Left            =   11880
-         TabIndex        =   39
+         TabIndex        =   37
          Top             =   1440
          Width           =   690
       End
@@ -1910,7 +1910,7 @@ Begin VB.Form Form2
          Caption         =   "Saída de Operador:"
          Height          =   195
          Left            =   11880
-         TabIndex        =   38
+         TabIndex        =   36
          Top             =   1080
          Width           =   1410
       End
@@ -1926,7 +1926,7 @@ Begin VB.Form Form2
          Caption         =   "Entrada de Operador:"
          Height          =   195
          Left            =   6240
-         TabIndex        =   37
+         TabIndex        =   35
          Top             =   5040
          Width           =   1590
       End
@@ -1936,7 +1936,7 @@ Begin VB.Form Form2
          Caption         =   "Fundo de Troco:"
          Height          =   195
          Left            =   6240
-         TabIndex        =   36
+         TabIndex        =   34
          Top             =   4680
          Width           =   1185
       End
@@ -1946,7 +1946,7 @@ Begin VB.Form Form2
          Caption         =   "Sangria:"
          Height          =   195
          Left            =   6240
-         TabIndex        =   35
+         TabIndex        =   33
          Top             =   4320
          Width           =   600
       End
@@ -1956,7 +1956,7 @@ Begin VB.Form Form2
          Caption         =   "Recuperação de Último Cupom:"
          Height          =   195
          Left            =   6240
-         TabIndex        =   34
+         TabIndex        =   32
          Top             =   3960
          Width           =   2250
       End
@@ -1966,7 +1966,7 @@ Begin VB.Form Form2
          Caption         =   "Recuperação de Cupom Local:"
          Height          =   195
          Left            =   6240
-         TabIndex        =   33
+         TabIndex        =   31
          Top             =   3600
          Width           =   2175
       End
@@ -1976,7 +1976,7 @@ Begin VB.Form Form2
          Caption         =   "Vasilhame:"
          Height          =   195
          Left            =   6240
-         TabIndex        =   32
+         TabIndex        =   30
          Top             =   3240
          Width           =   765
       End
@@ -1986,7 +1986,7 @@ Begin VB.Form Form2
          Caption         =   "Etiqueta de Balança:"
          Height          =   195
          Left            =   6240
-         TabIndex        =   31
+         TabIndex        =   29
          Top             =   2880
          Width           =   1485
       End
@@ -1996,7 +1996,7 @@ Begin VB.Form Form2
          Caption         =   "Gaveta:"
          Height          =   195
          Left            =   6240
-         TabIndex        =   30
+         TabIndex        =   28
          Top             =   2520
          Width           =   585
       End
@@ -2006,7 +2006,7 @@ Begin VB.Form Form2
          Caption         =   "Balança:"
          Height          =   195
          Left            =   6240
-         TabIndex        =   29
+         TabIndex        =   27
          Top             =   2160
          Width           =   615
       End
@@ -2016,7 +2016,7 @@ Begin VB.Form Form2
          Caption         =   "Scanner:"
          Height          =   195
          Left            =   6240
-         TabIndex        =   28
+         TabIndex        =   26
          Top             =   1800
          Width           =   645
       End
@@ -2027,7 +2027,7 @@ Begin VB.Form Form2
          Height          =   195
          Index           =   1
          Left            =   6240
-         TabIndex        =   27
+         TabIndex        =   25
          Top             =   1440
          Width           =   1680
       End
@@ -2038,7 +2038,7 @@ Begin VB.Form Form2
          Height          =   195
          Index           =   0
          Left            =   6240
-         TabIndex        =   26
+         TabIndex        =   24
          Top             =   1080
          Width           =   1755
       End
@@ -2055,7 +2055,7 @@ Begin VB.Form Form2
          Caption         =   "Desconto Finalizadora:"
          Height          =   195
          Left            =   360
-         TabIndex        =   21
+         TabIndex        =   19
          Top             =   5040
          Width           =   1635
       End
@@ -2066,7 +2066,7 @@ Begin VB.Form Form2
          Height          =   195
          Index           =   1
          Left            =   360
-         TabIndex        =   20
+         TabIndex        =   18
          Top             =   4680
          Width           =   1635
       End
@@ -2077,7 +2077,7 @@ Begin VB.Form Form2
          Height          =   195
          Index           =   0
          Left            =   360
-         TabIndex        =   19
+         TabIndex        =   17
          Top             =   4320
          Width           =   1710
       End
@@ -2088,7 +2088,7 @@ Begin VB.Form Form2
          Height          =   195
          Index           =   1
          Left            =   360
-         TabIndex        =   18
+         TabIndex        =   16
          Top             =   3960
          Width           =   1365
       End
@@ -2099,7 +2099,7 @@ Begin VB.Form Form2
          Height          =   195
          Index           =   0
          Left            =   360
-         TabIndex        =   17
+         TabIndex        =   15
          Top             =   3600
          Width           =   1440
       End
@@ -2109,7 +2109,7 @@ Begin VB.Form Form2
          Caption         =   "Cancelamento Cupom:"
          Height          =   195
          Left            =   360
-         TabIndex        =   16
+         TabIndex        =   14
          Top             =   3240
          Width           =   1620
       End
@@ -2119,7 +2119,7 @@ Begin VB.Form Form2
          Caption         =   "Cancelamento Subtotal:"
          Height          =   195
          Left            =   360
-         TabIndex        =   15
+         TabIndex        =   13
          Top             =   2880
          Width           =   1725
       End
@@ -2129,7 +2129,7 @@ Begin VB.Form Form2
          Caption         =   "Cancelamento Item:"
          Height          =   195
          Left            =   360
-         TabIndex        =   14
+         TabIndex        =   12
          Top             =   2520
          Width           =   1455
       End
@@ -2139,7 +2139,7 @@ Begin VB.Form Form2
          Caption         =   "Troco:"
          Height          =   195
          Left            =   360
-         TabIndex        =   13
+         TabIndex        =   11
          Top             =   2160
          Width           =   465
       End
@@ -2149,7 +2149,7 @@ Begin VB.Form Form2
          Caption         =   "Pagamento/ Fechamento Compra:"
          Height          =   195
          Left            =   360
-         TabIndex        =   12
+         TabIndex        =   10
          Top             =   1800
          Width           =   2460
       End
@@ -2159,7 +2159,7 @@ Begin VB.Form Form2
          Caption         =   "Consulta de Produto:"
          Height          =   195
          Left            =   360
-         TabIndex        =   11
+         TabIndex        =   9
          Top             =   1440
          Width           =   1530
       End
@@ -2169,7 +2169,7 @@ Begin VB.Form Form2
          Caption         =   "Pesquisa de Produto:"
          Height          =   195
          Left            =   360
-         TabIndex        =   10
+         TabIndex        =   8
          Top             =   1080
          Width           =   1530
       End
@@ -2181,16 +2181,16 @@ Begin VB.Form Form2
             Name            =   "Tahoma"
             Size            =   9
             Charset         =   0
-            Weight          =   400
+            Weight          =   700
             Underline       =   0   'False
             Italic          =   0   'False
             Strikethrough   =   0   'False
          EndProperty
          Height          =   210
          Left            =   6240
-         TabIndex        =   9
+         TabIndex        =   7
          Top             =   600
-         Width           =   1485
+         Width           =   1665
       End
       Begin VB.Label lblData 
          AutoSize        =   -1  'True
@@ -2200,16 +2200,16 @@ Begin VB.Form Form2
             Name            =   "Tahoma"
             Size            =   9
             Charset         =   0
-            Weight          =   400
+            Weight          =   700
             Underline       =   0   'False
             Italic          =   0   'False
             Strikethrough   =   0   'False
          EndProperty
          Height          =   210
          Left            =   3600
-         TabIndex        =   8
+         TabIndex        =   6
          Top             =   600
-         Width           =   435
+         Width           =   495
       End
       Begin VB.Label lblCódigo 
          AutoSize        =   -1  'True
@@ -2219,16 +2219,16 @@ Begin VB.Form Form2
             Name            =   "Tahoma"
             Size            =   9
             Charset         =   0
-            Weight          =   400
+            Weight          =   700
             Underline       =   0   'False
             Italic          =   0   'False
             Strikethrough   =   0   'False
          EndProperty
          Height          =   210
          Left            =   600
-         TabIndex        =   7
+         TabIndex        =   5
          Top             =   600
-         Width           =   615
+         Width           =   705
       End
    End
    Begin VB.Line Line2 
@@ -2243,46 +2243,6 @@ Begin VB.Form Form2
       X2              =   0
       Y1              =   4560
       Y2              =   0
-   End
-   Begin VB.Label lblF3Busca 
-      AutoSize        =   -1  'True
-      BackStyle       =   0  'Transparent
-      Caption         =   "F4 - Busca por Código"
-      BeginProperty Font 
-         Name            =   "Tahoma"
-         Size            =   9
-         Charset         =   0
-         Weight          =   700
-         Underline       =   0   'False
-         Italic          =   0   'False
-         Strikethrough   =   0   'False
-      EndProperty
-      ForeColor       =   &H8000000D&
-      Height          =   210
-      Left            =   240
-      TabIndex        =   6
-      Top             =   6000
-      Width           =   2010
-   End
-   Begin VB.Label lblBusca1 
-      AutoSize        =   -1  'True
-      BackStyle       =   0  'Transparent
-      Caption         =   "F3 - Busca por Data"
-      BeginProperty Font 
-         Name            =   "Tahoma"
-         Size            =   9
-         Charset         =   0
-         Weight          =   700
-         Underline       =   0   'False
-         Italic          =   0   'False
-         Strikethrough   =   0   'False
-      EndProperty
-      ForeColor       =   &H8000000D&
-      Height          =   210
-      Left            =   240
-      TabIndex        =   5
-      Top             =   5760
-      Width           =   1800
    End
 End
 Attribute VB_Name = "Form2"
@@ -2313,11 +2273,11 @@ End Sub
 
 Private Sub cmdCarregar_Click()
 If MasCodversao.Text = "__.__.__" Then
-    MsgBox "Selecione o Código da versão"
+    MsgBox "Selecione o Código da versão", vbInformation
     Exit Sub
 End If
 If Not ExisteVersao(MasCodversao.Text) Then
-    MsgBox "Não foi encontrado nenhum teste para este versionamento"
+    MsgBox "Não foi encontrado nenhum teste para este versionamento", vbInformation
     Exit Sub
 End If
 
@@ -2334,7 +2294,7 @@ End Sub
 
 Private Sub cmdGravar_Click()
 If (GravarTeste(MasCodversao.Text)) Then
-MsgBox "Teste da versão " & MasCodversao.Text & " salvo com Sucesso"
+MsgBox "Teste da versão " & MasCodversao.Text & " salvo com Sucesso", vbInformation
 
 ResetarCampos
 End If
@@ -2350,13 +2310,13 @@ Dim Count As Integer
 Dim habilitar As Integer
 
 If MasCodversao.Text = "__.__.__" Or ComUsuario.Text = "" Then
-    MsgBox "Selecione as Informações do Teste"
+    MsgBox "Selecione as Informações do Teste", vbInformation
     Exit Sub
 End If
 MasData.Text = Format(Now, "dd/mm/yyyy")
 'TDBCodigo.Text = Val(Replace$(MasCodversao.Text, ".", ""))
 If ExisteVersao(MasCodversao.Text) Then
-    MsgBox "Já foi realizado um teste para este versionamento, carregue-o."
+    MsgBox "Já foi realizado um teste para este versionamento, carregue-o.", vbInformation
     Exit Sub
 End If
     Call CriarNovoTeste(MasData.Text, MasCodversao.Text, EncontraCodUsuario(ComUsuario.Text))
