@@ -1,12 +1,15 @@
 [History]
-1=#P0#=mb	#P1#=cmdCarregar_Click	#P2#=Script/Form2/cmdCarregar_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20220310165931	#P7#=0	#P8#=2	.
-2=#P0#=mb	#P1#=cmdGravar_Click	#P2#=Script/Form2/cmdGravar_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20220310165905	#P7#=0	#P8#=2	.
-3=#P0#=mb	#P1#=cmdNovo_Click	#P2#=Script/Form2/cmdNovo_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20220310165850	#P7#=0	#P8#=11	.
-4=#P0#=mb	#P1#=GravarTeste	#P2#=Script/Form2/GravarTeste	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20220310165237	#P7#=0	#P8#=19	.
-5=#P0#=mb	#P1#=Form_Load	#P2#=Script/Form2/Form_Load	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20220308100650	#P7#=0	#P8#=9	.
-6=#P0#=mb	#P1#=cmdSair_Click	#P2#=Script/Form2/cmdSair_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20220308093916	#P7#=0	#P8#=-1	.
-7=#P0#=mb	#P1#=Form_Load	#P2#=Script/Form1/Form_Load	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20220307224654	#P7#=0	#P8#=1	.
-8=#P0#=mb	#P1#=cmdPDVLinearWSLinear_Click	#P2#=Script/Form1/cmdPDVLinearWSLinear_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20220307223336	#P7#=0	#P8#=-1	.
-9=#P0#=mb	#P1#=FraConfigGerais_DragDrop	#P2#=Script/Form2/FraConfigGerais_DragDrop	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20220307223156	#P7#=0	#P8#=0	.
-10=#P0#=mb	#P1#=cmdSGLinear_Click	#P2#=Script/Form1/cmdSGLinear_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20220307205426	#P7#=0	#P8#=4	.
-11=#P0#=mb	#P1#=cmdLegendaSituações_Click	#P2#=Script/Form2/cmdLegendaSituações_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20220307205135	#P7#=0	#P8#=2	.
+1=#P0#=mb	#P1#=ResetarCampos	#P2#=Script/Form2/ResetarCampos	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20220310201038	#P7#=0	#P8#=7	.
+2=#P0#=mb	#P1#=cmdSGLinearplano_Click	#P2#=Script/Form1/cmdSGLinearplano_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20220310195643	#P7#=0	#P8#=1	.
+3=#P0#=mb	#P1#=cmdCancelar_Click	#P2#=Script/Form2/cmdCancelar_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20220310200219	#P7#=0	#P8#=14	.
+4=#P0#=mb	#P1#=cmdCarregar_Click	#P2#=Script/Form2/cmdCarregar_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20220310165931	#P7#=0	#P8#=19	.
+5=#P0#=mb	#P1#=cmdGravar_Click	#P2#=Script/Form2/cmdGravar_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20220310165905	#P7#=0	#P8#=2	.
+6=#P0#=mb	#P1#=cmdNovo_Click	#P2#=Script/Form2/cmdNovo_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20220310195915	#P7#=0	#P8#=2	.
+7=#P0#=mb	#P1#=GravarTeste	#P2#=Script/Form2/GravarTeste	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20220310165237	#P7#=0	#P8#=8	.
+8=#P0#=mb	#P1#=Form_Load	#P2#=Script/Form2/Form_Load	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20220310202723	#P7#=0	#P8#=4	.
+9=#P0#=mb	#P1#=cmdSair_Click	#P2#=Script/Form2/cmdSair_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20220308093916	#P7#=0	#P8#=-1	.
+10=#P0#=mb	#P1#=Form_Load	#P2#=Script/Form1/Form_Load	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20220307224654	#P7#=0	#P8#=5	.
+11=#P0#=mb	#P1#=cmdPDVLinearWSLinear_Click	#P2#=Script/Form1/cmdPDVLinearWSLinear_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20220310201932	#P7#=0	#P8#=2	.
+12=#P0#=mb	#P1#=FraConfigGerais_DragDrop	#P2#=Script/Form2/FraConfigGerais_DragDrop	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20220307223156	#P7#=0	#P8#=0	.
+13=#P0#=mb	#P1#=cmdSGLinear_Click	#P2#=Script/Form1/cmdSGLinear_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20220310195027	#P7#=0	#P8#=1	.
+14=#P0#=mb	#P1#=cmdLegendaSituações_Click	#P2#=Script/Form2/cmdLegendaSituações_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20220307205135	#P7#=0	#P8#=2	.
