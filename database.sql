@@ -88,6 +88,104 @@ CREATE TABLE IF NOT EXISTS `testes_procgerais` (
 /*!40000 ALTER TABLE `testes_procgerais` DISABLE KEYS */;
 /*!40000 ALTER TABLE `testes_procgerais` ENABLE KEYS */;
 
+-- Copiando estrutura para tabela apptestes.testes_promo
+CREATE TABLE IF NOT EXISTS `testes_promo` (
+  `teste_id` int(11) NOT NULL,
+  `st_promoavulsa` varchar(10) DEFAULT NULL,
+  `st_promoqtdmax` varchar(10) DEFAULT NULL,
+  `st_levepague` varchar(10) DEFAULT NULL,
+  `st_premiodesc` varchar(10) DEFAULT NULL,
+  `st_valorvenda` varchar(10) DEFAULT NULL,
+  `st_valorpack` varchar(10) DEFAULT NULL,
+  `st_atacarejo_paguemenos` varchar(10) DEFAULT NULL,
+  `st_atacarejo_cadproduto` varchar(10) DEFAULT NULL,
+  `st_listaprodutos` varchar(10) DEFAULT NULL,
+  `st_bondsclub` varchar(10) DEFAULT NULL,
+  `st_lecupom` varchar(10) DEFAULT NULL,
+  `st_epromo` varchar(10) DEFAULT NULL,
+  `st_mercafacil` varchar(10) DEFAULT NULL,
+  `st_scanntech` varchar(10) DEFAULT NULL,
+  `st_meliuz` varchar(10) DEFAULT NULL,
+  `st_sitemercado` varchar(10) DEFAULT NULL,
+  PRIMARY KEY (`teste_id`),
+  CONSTRAINT `FK_testes_promo_testes` FOREIGN KEY (`teste_id`) REFERENCES `testes` (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- Copiando dados para a tabela apptestes.testes_promo: ~0 rows (aproximadamente)
+/*!40000 ALTER TABLE `testes_promo` DISABLE KEYS */;
+/*!40000 ALTER TABLE `testes_promo` ENABLE KEYS */;
+
+-- Copiando estrutura para tabela apptestes.testes_pagamento_carga
+CREATE TABLE IF NOT EXISTS `testes_pagamento_carga` (
+  `teste_id` int(11) NOT NULL,
+  `st_dinheiro` varchar(10) DEFAULT NULL,
+  `st_tef` varchar(10) DEFAULT NULL,
+  `st_convenio_on` varchar(10) DEFAULT NULL,
+  `st_convenio_off` varchar(10) DEFAULT NULL,
+  `st_duas_formas_pagto` varchar(10) DEFAULT NULL,
+  `st_cheque` varchar(10) DEFAULT NULL,
+  `st_chequepre` varchar(10) DEFAULT NULL,
+  `st_recebimento_venda_prazo` varchar(10) DEFAULT NULL,
+  `st_pix` varchar(10) DEFAULT NULL,
+  `st_prodtotal` varchar(10) DEFAULT NULL,
+  `st_prodalterados` varchar(10) DEFAULT NULL,
+  `st_prodselecionados` varchar(10) DEFAULT NULL,
+  `st_exporta_promocao` varchar(10) DEFAULT NULL,
+  `st_exporta_operador` varchar(10) DEFAULT NULL,
+  `st_exporta_finalizadora` varchar(10) DEFAULT NULL,
+  PRIMARY KEY (`teste_id`),
+  CONSTRAINT `FK_testes_pagamento_carga_testes` FOREIGN KEY (`teste_id`) REFERENCES `testes` (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- Copiando dados para a tabela apptestes.testes_pagamento_carga: ~0 rows (aproximadamente)
+/*!40000 ALTER TABLE `testes_pagamento_carga` DISABLE KEYS */;
+/*!40000 ALTER TABLE `testes_pagamento_carga` ENABLE KEYS */;
+
+-- Copiando estrutura para tabela apptestes.testes_nfce_ws_outros
+CREATE TABLE IF NOT EXISTS `testes_nfce_ws_outros` (
+  `teste_id` int(11) NOT NULL,
+  `st_autorizacao_sefaz` varchar(10) DEFAULT NULL,
+  `st_impressao_danfe` varchar(10) DEFAULT NULL,
+  `st_cancelamento` varchar(10) DEFAULT NULL,
+  `st_contingencia_geracao` varchar(10) DEFAULT NULL,
+  `st_contingencia_transmissao` varchar(10) DEFAULT NULL,
+  `st_pendente_geracao` varchar(10) DEFAULT NULL,
+  `st_pendente_transmissao` varchar(10) DEFAULT NULL,
+  `st_faixanum` varchar(10) DEFAULT NULL,
+  `st_processamento_rv_xml` varchar(10) DEFAULT NULL,
+  `st_divergencia_painel` varchar(10) DEFAULT NULL,
+  `st_fidelidade` varchar(10) DEFAULT NULL,
+  `st_fidelidade_formacao_preco` varchar(10) DEFAULT NULL,
+  `st_fidelidade_tabela_preco` varchar(10) DEFAULT NULL,
+  `st_resgate_faixa` varchar(10) DEFAULT NULL,
+  `st_entrega_pdv` varchar(10) DEFAULT NULL,
+  `st_pedidovenda` varchar(10) DEFAULT NULL,
+  `st_dav_impressao` varchar(10) DEFAULT NULL,
+  `st_dav_faturamento` varchar(10) DEFAULT NULL,
+  `st_sgr_comanda` varchar(10) DEFAULT NULL,
+  `st_identifica_cliente` varchar(10) DEFAULT NULL,
+  `st_fatura_convenio` varchar(10) DEFAULT NULL,
+  PRIMARY KEY (`teste_id`),
+  CONSTRAINT `FK_testes_nfce_ws_outros_testes` FOREIGN KEY (`teste_id`) REFERENCES `testes` (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- Copiando dados para a tabela apptestes.testes_nfce_ws_outros: ~0 rows (aproximadamente)
+/*!40000 ALTER TABLE `testes_nfce_ws_outros` DISABLE KEYS */;
+/*!40000 ALTER TABLE `testes_nfce_ws_outros` ENABLE KEYS */;
+
+-- Copiando estrutura para tabela apptestes.testes_observacao
+CREATE TABLE IF NOT EXISTS `testes_observacao` (
+  `teste_id` int(11) NOT NULL,
+  `observacao` LONGTEXT NOT NULL COLLATE,
+  `caso_ioty` LONGTEXT NOT NULL COLLATE,
+  PRIMARY KEY (`teste_id`),
+  CONSTRAINT `FK_testes_observacao_carga_testes` FOREIGN KEY (`teste_id`) REFERENCES `testes` (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- Copiando dados para a tabela apptestes.testes_observacao: ~0 rows (aproximadamente)
+/*!40000 ALTER TABLE `testes_observacao` DISABLE KEYS */;
+/*!40000 ALTER TABLE `testes_observacao` ENABLE KEYS */;
+
 -- Copiando estrutura para tabela apptestes.usuarios
 CREATE TABLE IF NOT EXISTS `usuarios` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
@@ -100,6 +198,11 @@ CREATE TABLE IF NOT EXISTS `usuarios` (
 INSERT INTO `usuarios` (`id`, `nome`) VALUES
 	(1, 'LUIZ GUSTAVO'),
 	(2, 'GABRIEL SAMPAIO');
+	(3, 'JOAO MARQUES');
+	(4, 'GISELLE VIEIRA');
+	(5, 'NILMA FERRAZ');
+	(6, 'ALBERTO OLIVEIRA');
+	(7, 'CLEVERTON SILVA');
 /*!40000 ALTER TABLE `usuarios` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

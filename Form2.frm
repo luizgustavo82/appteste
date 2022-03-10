@@ -135,11 +135,12 @@ Begin VB.Form Form2
       _ExtentY        =   9975
       _Version        =   393216
       Tabs            =   5
+      Tab             =   3
       TabsPerRow      =   5
       TabHeight       =   520
       TabCaption(0)   =   "Procedimentos Gerais"
       TabPicture(0)   =   "Form2.frx":0000
-      Tab(0).ControlEnabled=   -1  'True
+      Tab(0).ControlEnabled=   0   'False
       Tab(0).Control(0)=   "lblCódigo"
       Tab(0).Control(0).Enabled=   0   'False
       Tab(0).Control(1)=   "lblData"
@@ -288,121 +289,228 @@ Begin VB.Form Form2
       TabCaption(1)   =   "Promoções/ Integrações"
       TabPicture(1)   =   "Form2.frx":001C
       Tab(1).ControlEnabled=   0   'False
-      Tab(1).Control(0)=   "Combo1(46)"
-      Tab(1).Control(1)=   "Combo1(45)"
-      Tab(1).Control(2)=   "Combo1(44)"
-      Tab(1).Control(3)=   "Combo1(43)"
-      Tab(1).Control(4)=   "Combo1(42)"
-      Tab(1).Control(5)=   "Combo1(41)"
-      Tab(1).Control(6)=   "Combo1(40)"
-      Tab(1).Control(7)=   "Combo1(39)"
-      Tab(1).Control(8)=   "Combo1(38)"
-      Tab(1).Control(9)=   "Combo1(37)"
-      Tab(1).Control(10)=   "Combo1(36)"
-      Tab(1).Control(11)=   "Combo1(35)"
-      Tab(1).Control(12)=   "Combo1(34)"
-      Tab(1).Control(13)=   "Combo1(33)"
-      Tab(1).Control(14)=   "Combo1(32)"
-      Tab(1).Control(15)=   "Combo1(31)"
+      Tab(1).Control(0)=   "lblPromoçãoDeProdutos"
+      Tab(1).Control(0).Enabled=   0   'False
+      Tab(1).Control(1)=   "lblPromoçãoComQuantidade"
+      Tab(1).Control(1).Enabled=   0   'False
+      Tab(1).Control(2)=   "lblLeveEPague"
+      Tab(1).Control(2).Enabled=   0   'False
+      Tab(1).Control(3)=   "lblPremioOuDesconto"
+      Tab(1).Control(3).Enabled=   0   'False
+      Tab(1).Control(4)=   "lblValorDeVenda"
+      Tab(1).Control(4).Enabled=   0   'False
+      Tab(1).Control(5)=   "lblValorDoPack"
+      Tab(1).Control(5).Enabled=   0   'False
+      Tab(1).Control(6)=   "lblAtacarejoPagueMenos"
+      Tab(1).Control(6).Enabled=   0   'False
+      Tab(1).Control(7)=   "lblAtacarejoCadastroDe"
+      Tab(1).Control(7).Enabled=   0   'False
+      Tab(1).Control(8)=   "lblListaDeProdutos"
+      Tab(1).Control(8).Enabled=   0   'False
+      Tab(1).Control(9)=   "Line5"
+      Tab(1).Control(9).Enabled=   0   'False
+      Tab(1).Control(10)=   "lblBondsClub"
+      Tab(1).Control(10).Enabled=   0   'False
+      Tab(1).Control(11)=   "lblLeCupom"
+      Tab(1).Control(11).Enabled=   0   'False
+      Tab(1).Control(12)=   "lblEPromo"
+      Tab(1).Control(12).Enabled=   0   'False
+      Tab(1).Control(13)=   "lblMercaFacil"
+      Tab(1).Control(13).Enabled=   0   'False
+      Tab(1).Control(14)=   "lblScanntech"
+      Tab(1).Control(14).Enabled=   0   'False
+      Tab(1).Control(15)=   "lblMeliuz"
+      Tab(1).Control(15).Enabled=   0   'False
       Tab(1).Control(16)=   "lblSiteMercado"
-      Tab(1).Control(17)=   "lblMeliuz"
-      Tab(1).Control(18)=   "lblScanntech"
-      Tab(1).Control(19)=   "lblMercaFacil"
-      Tab(1).Control(20)=   "lblEPromo"
-      Tab(1).Control(21)=   "lblLeCupom"
-      Tab(1).Control(22)=   "lblBondsClub"
-      Tab(1).Control(23)=   "Line5"
-      Tab(1).Control(24)=   "lblListaDeProdutos"
-      Tab(1).Control(25)=   "lblAtacarejoCadastroDe"
-      Tab(1).Control(26)=   "lblAtacarejoPagueMenos"
-      Tab(1).Control(27)=   "lblValorDoPack"
-      Tab(1).Control(28)=   "lblValorDeVenda"
-      Tab(1).Control(29)=   "lblPremioOuDesconto"
-      Tab(1).Control(30)=   "lblLeveEPague"
-      Tab(1).Control(31)=   "lblPromoçãoComQuantidade"
-      Tab(1).Control(32)=   "lblPromoçãoDeProdutos"
+      Tab(1).Control(16).Enabled=   0   'False
+      Tab(1).Control(17)=   "Combo1(31)"
+      Tab(1).Control(17).Enabled=   0   'False
+      Tab(1).Control(18)=   "Combo1(32)"
+      Tab(1).Control(18).Enabled=   0   'False
+      Tab(1).Control(19)=   "Combo1(33)"
+      Tab(1).Control(19).Enabled=   0   'False
+      Tab(1).Control(20)=   "Combo1(34)"
+      Tab(1).Control(20).Enabled=   0   'False
+      Tab(1).Control(21)=   "Combo1(35)"
+      Tab(1).Control(21).Enabled=   0   'False
+      Tab(1).Control(22)=   "Combo1(36)"
+      Tab(1).Control(22).Enabled=   0   'False
+      Tab(1).Control(23)=   "Combo1(37)"
+      Tab(1).Control(23).Enabled=   0   'False
+      Tab(1).Control(24)=   "Combo1(38)"
+      Tab(1).Control(24).Enabled=   0   'False
+      Tab(1).Control(25)=   "Combo1(39)"
+      Tab(1).Control(25).Enabled=   0   'False
+      Tab(1).Control(26)=   "Combo1(40)"
+      Tab(1).Control(26).Enabled=   0   'False
+      Tab(1).Control(27)=   "Combo1(41)"
+      Tab(1).Control(27).Enabled=   0   'False
+      Tab(1).Control(28)=   "Combo1(42)"
+      Tab(1).Control(28).Enabled=   0   'False
+      Tab(1).Control(29)=   "Combo1(43)"
+      Tab(1).Control(29).Enabled=   0   'False
+      Tab(1).Control(30)=   "Combo1(44)"
+      Tab(1).Control(30).Enabled=   0   'False
+      Tab(1).Control(31)=   "Combo1(45)"
+      Tab(1).Control(31).Enabled=   0   'False
+      Tab(1).Control(32)=   "Combo1(46)"
+      Tab(1).Control(32).Enabled=   0   'False
       Tab(1).ControlCount=   33
       TabCaption(2)   =   "Formas de Pagamento/ Carga"
       TabPicture(2)   =   "Form2.frx":0038
       Tab(2).ControlEnabled=   0   'False
-      Tab(2).Control(0)=   "Combo1(61)"
-      Tab(2).Control(1)=   "Combo1(60)"
-      Tab(2).Control(2)=   "Combo1(59)"
-      Tab(2).Control(3)=   "Combo1(58)"
-      Tab(2).Control(4)=   "Combo1(57)"
-      Tab(2).Control(5)=   "Combo1(56)"
-      Tab(2).Control(6)=   "Combo1(55)"
-      Tab(2).Control(7)=   "Combo1(54)"
-      Tab(2).Control(8)=   "Combo1(53)"
-      Tab(2).Control(9)=   "Combo1(52)"
-      Tab(2).Control(10)=   "Combo1(51)"
-      Tab(2).Control(11)=   "Combo1(50)"
-      Tab(2).Control(12)=   "Combo1(49)"
-      Tab(2).Control(13)=   "Combo1(48)"
-      Tab(2).Control(14)=   "Combo1(47)"
+      Tab(2).Control(0)=   "lblDinheiro"
+      Tab(2).Control(0).Enabled=   0   'False
+      Tab(2).Control(1)=   "lblTEF"
+      Tab(2).Control(1).Enabled=   0   'False
+      Tab(2).Control(2)=   "lblConvenioOnline"
+      Tab(2).Control(2).Enabled=   0   'False
+      Tab(2).Control(3)=   "lblConvenioOffline"
+      Tab(2).Control(3).Enabled=   0   'False
+      Tab(2).Control(4)=   "lblVendaEmDuas"
+      Tab(2).Control(4).Enabled=   0   'False
+      Tab(2).Control(5)=   "lblChequeTesteOpcional"
+      Tab(2).Control(5).Enabled=   0   'False
+      Tab(2).Control(6)=   "lblChequePréTeste"
+      Tab(2).Control(6).Enabled=   0   'False
+      Tab(2).Control(7)=   "lblRecebimentoVendaA"
+      Tab(2).Control(7).Enabled=   0   'False
+      Tab(2).Control(8)=   "lblPIXPicPay"
+      Tab(2).Control(8).Enabled=   0   'False
+      Tab(2).Control(9)=   "Line6"
+      Tab(2).Control(9).Enabled=   0   'False
+      Tab(2).Control(10)=   "lblProdutoTotal"
+      Tab(2).Control(10).Enabled=   0   'False
+      Tab(2).Control(11)=   "lblProdutoAlterado"
+      Tab(2).Control(11).Enabled=   0   'False
+      Tab(2).Control(12)=   "lblProdutoSelecionado"
+      Tab(2).Control(12).Enabled=   0   'False
+      Tab(2).Control(13)=   "lblPromoção"
+      Tab(2).Control(13).Enabled=   0   'False
+      Tab(2).Control(14)=   "lblOperador"
+      Tab(2).Control(14).Enabled=   0   'False
       Tab(2).Control(15)=   "lblFinalizadora"
-      Tab(2).Control(16)=   "lblOperador"
-      Tab(2).Control(17)=   "lblPromoção"
-      Tab(2).Control(18)=   "lblProdutoSelecionado"
-      Tab(2).Control(19)=   "lblProdutoAlterado"
-      Tab(2).Control(20)=   "lblProdutoTotal"
-      Tab(2).Control(21)=   "Line6"
-      Tab(2).Control(22)=   "lblPIXPicPay"
-      Tab(2).Control(23)=   "lblRecebimentoVendaA"
-      Tab(2).Control(24)=   "lblChequePréTeste"
-      Tab(2).Control(25)=   "lblChequeTesteOpcional"
-      Tab(2).Control(26)=   "lblVendaEmDuas"
-      Tab(2).Control(27)=   "lblConvenioOffline"
-      Tab(2).Control(28)=   "lblConvenioOnline"
-      Tab(2).Control(29)=   "lblTEF"
-      Tab(2).Control(30)=   "lblDinheiro"
+      Tab(2).Control(15).Enabled=   0   'False
+      Tab(2).Control(16)=   "Combo1(47)"
+      Tab(2).Control(16).Enabled=   0   'False
+      Tab(2).Control(17)=   "Combo1(48)"
+      Tab(2).Control(17).Enabled=   0   'False
+      Tab(2).Control(18)=   "Combo1(49)"
+      Tab(2).Control(18).Enabled=   0   'False
+      Tab(2).Control(19)=   "Combo1(50)"
+      Tab(2).Control(19).Enabled=   0   'False
+      Tab(2).Control(20)=   "Combo1(51)"
+      Tab(2).Control(20).Enabled=   0   'False
+      Tab(2).Control(21)=   "Combo1(52)"
+      Tab(2).Control(21).Enabled=   0   'False
+      Tab(2).Control(22)=   "Combo1(53)"
+      Tab(2).Control(22).Enabled=   0   'False
+      Tab(2).Control(23)=   "Combo1(54)"
+      Tab(2).Control(23).Enabled=   0   'False
+      Tab(2).Control(24)=   "Combo1(55)"
+      Tab(2).Control(24).Enabled=   0   'False
+      Tab(2).Control(25)=   "Combo1(56)"
+      Tab(2).Control(25).Enabled=   0   'False
+      Tab(2).Control(26)=   "Combo1(57)"
+      Tab(2).Control(26).Enabled=   0   'False
+      Tab(2).Control(27)=   "Combo1(58)"
+      Tab(2).Control(27).Enabled=   0   'False
+      Tab(2).Control(28)=   "Combo1(59)"
+      Tab(2).Control(28).Enabled=   0   'False
+      Tab(2).Control(29)=   "Combo1(60)"
+      Tab(2).Control(29).Enabled=   0   'False
+      Tab(2).Control(30)=   "Combo1(61)"
+      Tab(2).Control(30).Enabled=   0   'False
       Tab(2).ControlCount=   31
       TabCaption(3)   =   "NFCe/ WSLinear/ Outras Operações"
       TabPicture(3)   =   "Form2.frx":0054
-      Tab(3).ControlEnabled=   0   'False
+      Tab(3).ControlEnabled=   -1  'True
       Tab(3).Control(0)=   "lblAutorizaçãoSEFAZ"
+      Tab(3).Control(0).Enabled=   0   'False
       Tab(3).Control(1)=   "lblImpressãoDANFE"
+      Tab(3).Control(1).Enabled=   0   'False
       Tab(3).Control(2)=   "lblCancelamento"
+      Tab(3).Control(2).Enabled=   0   'False
       Tab(3).Control(3)=   "lblContingenciaGeração"
+      Tab(3).Control(3).Enabled=   0   'False
       Tab(3).Control(4)=   "lblContingenciaTransmissão"
+      Tab(3).Control(4).Enabled=   0   'False
       Tab(3).Control(5)=   "lblPendenteGeração"
+      Tab(3).Control(5).Enabled=   0   'False
       Tab(3).Control(6)=   "lblPendenteTransmissão"
+      Tab(3).Control(6).Enabled=   0   'False
       Tab(3).Control(7)=   "lblFaixaDeNumeração"
+      Tab(3).Control(7).Enabled=   0   'False
       Tab(3).Control(8)=   "lblSGProcessamentoDos"
+      Tab(3).Control(8).Enabled=   0   'False
       Tab(3).Control(9)=   "lblSGDivergenciaPainel"
+      Tab(3).Control(9).Enabled=   0   'False
       Tab(3).Control(10)=   "Line7"
+      Tab(3).Control(10).Enabled=   0   'False
       Tab(3).Control(11)=   "lblFidelidade"
+      Tab(3).Control(11).Enabled=   0   'False
       Tab(3).Control(12)=   "lblFidelidadeTabelaFormação"
+      Tab(3).Control(12).Enabled=   0   'False
       Tab(3).Control(13)=   "lblFidelidadeTabelaPreço"
+      Tab(3).Control(13).Enabled=   0   'False
       Tab(3).Control(14)=   "lblFidelidadeResgatePor"
+      Tab(3).Control(14).Enabled=   0   'False
       Tab(3).Control(15)=   "lblEntrega"
+      Tab(3).Control(15).Enabled=   0   'False
       Tab(3).Control(16)=   "lblPedidoDeVenda"
+      Tab(3).Control(16).Enabled=   0   'False
       Tab(3).Control(17)=   "lblDAVImpressão"
+      Tab(3).Control(17).Enabled=   0   'False
       Tab(3).Control(18)=   "lblDAVFaturamento"
+      Tab(3).Control(18).Enabled=   0   'False
       Tab(3).Control(19)=   "lblSGRImportaçãoDe"
+      Tab(3).Control(19).Enabled=   0   'False
       Tab(3).Control(20)=   "lblIdentificaçãoDeCliente"
+      Tab(3).Control(20).Enabled=   0   'False
       Tab(3).Control(21)=   "lblFaturaConvenio"
+      Tab(3).Control(21).Enabled=   0   'False
       Tab(3).Control(22)=   "Combo1(62)"
+      Tab(3).Control(22).Enabled=   0   'False
       Tab(3).Control(23)=   "Combo1(63)"
+      Tab(3).Control(23).Enabled=   0   'False
       Tab(3).Control(24)=   "Combo1(64)"
+      Tab(3).Control(24).Enabled=   0   'False
       Tab(3).Control(25)=   "Combo1(65)"
+      Tab(3).Control(25).Enabled=   0   'False
       Tab(3).Control(26)=   "Combo1(66)"
+      Tab(3).Control(26).Enabled=   0   'False
       Tab(3).Control(27)=   "Combo1(67)"
+      Tab(3).Control(27).Enabled=   0   'False
       Tab(3).Control(28)=   "Combo1(68)"
+      Tab(3).Control(28).Enabled=   0   'False
       Tab(3).Control(29)=   "Combo1(69)"
+      Tab(3).Control(29).Enabled=   0   'False
       Tab(3).Control(30)=   "Combo1(70)"
+      Tab(3).Control(30).Enabled=   0   'False
       Tab(3).Control(31)=   "Combo1(71)"
+      Tab(3).Control(31).Enabled=   0   'False
       Tab(3).Control(32)=   "Combo1(72)"
+      Tab(3).Control(32).Enabled=   0   'False
       Tab(3).Control(33)=   "Combo1(73)"
+      Tab(3).Control(33).Enabled=   0   'False
       Tab(3).Control(34)=   "Combo1(74)"
+      Tab(3).Control(34).Enabled=   0   'False
       Tab(3).Control(35)=   "Combo1(75)"
+      Tab(3).Control(35).Enabled=   0   'False
       Tab(3).Control(36)=   "Combo1(76)"
+      Tab(3).Control(36).Enabled=   0   'False
       Tab(3).Control(37)=   "Combo1(77)"
+      Tab(3).Control(37).Enabled=   0   'False
       Tab(3).Control(38)=   "Combo1(78)"
+      Tab(3).Control(38).Enabled=   0   'False
       Tab(3).Control(39)=   "Combo1(79)"
+      Tab(3).Control(39).Enabled=   0   'False
       Tab(3).Control(40)=   "Combo1(80)"
+      Tab(3).Control(40).Enabled=   0   'False
       Tab(3).Control(41)=   "Combo1(81)"
+      Tab(3).Control(41).Enabled=   0   'False
       Tab(3).Control(42)=   "Combo1(82)"
+      Tab(3).Control(42).Enabled=   0   'False
       Tab(3).ControlCount=   43
       TabCaption(4)   =   "Observações"
       TabPicture(4)   =   "Form2.frx":0070
@@ -415,7 +523,7 @@ Begin VB.Form Form2
       Begin VB.ComboBox Combo1 
          Height          =   315
          Index           =   82
-         Left            =   -62160
+         Left            =   12840
          Style           =   2  'Dropdown List
          TabIndex        =   183
          Top             =   5280
@@ -424,7 +532,7 @@ Begin VB.Form Form2
       Begin VB.ComboBox Combo1 
          Height          =   315
          Index           =   81
-         Left            =   -62160
+         Left            =   12840
          Style           =   2  'Dropdown List
          TabIndex        =   182
          Top             =   4800
@@ -433,7 +541,7 @@ Begin VB.Form Form2
       Begin VB.ComboBox Combo1 
          Height          =   315
          Index           =   80
-         Left            =   -62160
+         Left            =   12840
          Style           =   2  'Dropdown List
          TabIndex        =   181
          Top             =   4320
@@ -442,7 +550,7 @@ Begin VB.Form Form2
       Begin VB.ComboBox Combo1 
          Height          =   315
          Index           =   79
-         Left            =   -62160
+         Left            =   12840
          Style           =   2  'Dropdown List
          TabIndex        =   180
          Top             =   3840
@@ -451,7 +559,7 @@ Begin VB.Form Form2
       Begin VB.ComboBox Combo1 
          Height          =   315
          Index           =   78
-         Left            =   -62160
+         Left            =   12840
          Style           =   2  'Dropdown List
          TabIndex        =   179
          Top             =   3360
@@ -460,7 +568,7 @@ Begin VB.Form Form2
       Begin VB.ComboBox Combo1 
          Height          =   315
          Index           =   77
-         Left            =   -62160
+         Left            =   12840
          Style           =   2  'Dropdown List
          TabIndex        =   178
          Top             =   2880
@@ -469,7 +577,7 @@ Begin VB.Form Form2
       Begin VB.ComboBox Combo1 
          Height          =   315
          Index           =   76
-         Left            =   -62160
+         Left            =   12840
          Style           =   2  'Dropdown List
          TabIndex        =   177
          Top             =   2400
@@ -478,7 +586,7 @@ Begin VB.Form Form2
       Begin VB.ComboBox Combo1 
          Height          =   315
          Index           =   75
-         Left            =   -62160
+         Left            =   12840
          Style           =   2  'Dropdown List
          TabIndex        =   176
          Top             =   1920
@@ -487,7 +595,7 @@ Begin VB.Form Form2
       Begin VB.ComboBox Combo1 
          Height          =   315
          Index           =   74
-         Left            =   -62160
+         Left            =   12840
          Style           =   2  'Dropdown List
          TabIndex        =   175
          Top             =   1440
@@ -496,7 +604,7 @@ Begin VB.Form Form2
       Begin VB.ComboBox Combo1 
          Height          =   315
          Index           =   73
-         Left            =   -62160
+         Left            =   12840
          Style           =   2  'Dropdown List
          TabIndex        =   174
          Top             =   960
@@ -505,7 +613,7 @@ Begin VB.Form Form2
       Begin VB.ComboBox Combo1 
          Height          =   315
          Index           =   72
-         Left            =   -69840
+         Left            =   5160
          Style           =   2  'Dropdown List
          TabIndex        =   173
          Top             =   4920
@@ -514,7 +622,7 @@ Begin VB.Form Form2
       Begin VB.ComboBox Combo1 
          Height          =   315
          Index           =   71
-         Left            =   -69840
+         Left            =   5160
          Style           =   2  'Dropdown List
          TabIndex        =   172
          Top             =   4440
@@ -523,7 +631,7 @@ Begin VB.Form Form2
       Begin VB.ComboBox Combo1 
          Height          =   315
          Index           =   70
-         Left            =   -69840
+         Left            =   5160
          Style           =   2  'Dropdown List
          TabIndex        =   171
          Top             =   3960
@@ -532,7 +640,7 @@ Begin VB.Form Form2
       Begin VB.ComboBox Combo1 
          Height          =   315
          Index           =   69
-         Left            =   -69840
+         Left            =   5160
          Style           =   2  'Dropdown List
          TabIndex        =   170
          Top             =   3480
@@ -541,7 +649,7 @@ Begin VB.Form Form2
       Begin VB.ComboBox Combo1 
          Height          =   315
          Index           =   68
-         Left            =   -69840
+         Left            =   5160
          Style           =   2  'Dropdown List
          TabIndex        =   169
          Top             =   3000
@@ -550,7 +658,7 @@ Begin VB.Form Form2
       Begin VB.ComboBox Combo1 
          Height          =   315
          Index           =   67
-         Left            =   -69840
+         Left            =   5160
          Style           =   2  'Dropdown List
          TabIndex        =   168
          Top             =   2520
@@ -559,7 +667,7 @@ Begin VB.Form Form2
       Begin VB.ComboBox Combo1 
          Height          =   315
          Index           =   66
-         Left            =   -69840
+         Left            =   5160
          Style           =   2  'Dropdown List
          TabIndex        =   167
          Top             =   2040
@@ -568,7 +676,7 @@ Begin VB.Form Form2
       Begin VB.ComboBox Combo1 
          Height          =   315
          Index           =   65
-         Left            =   -69840
+         Left            =   5160
          Style           =   2  'Dropdown List
          TabIndex        =   166
          Top             =   1560
@@ -577,7 +685,7 @@ Begin VB.Form Form2
       Begin VB.ComboBox Combo1 
          Height          =   315
          Index           =   64
-         Left            =   -69840
+         Left            =   5160
          Style           =   2  'Dropdown List
          TabIndex        =   165
          Top             =   1080
@@ -586,7 +694,7 @@ Begin VB.Form Form2
       Begin VB.ComboBox Combo1 
          Height          =   315
          Index           =   63
-         Left            =   -62160
+         Left            =   12840
          Style           =   2  'Dropdown List
          TabIndex        =   164
          Top             =   480
@@ -595,7 +703,7 @@ Begin VB.Form Form2
       Begin VB.ComboBox Combo1 
          Height          =   315
          Index           =   62
-         Left            =   -69840
+         Left            =   5160
          Style           =   2  'Dropdown List
          TabIndex        =   163
          Top             =   600
@@ -883,7 +991,7 @@ Begin VB.Form Form2
       Begin VB.ComboBox Combo1 
          Height          =   315
          Index           =   14
-         Left            =   9480
+         Left            =   -65520
          Style           =   2  'Dropdown List
          TabIndex        =   131
          Top             =   960
@@ -892,7 +1000,7 @@ Begin VB.Form Form2
       Begin VB.ComboBox Combo1 
          Height          =   315
          Index           =   13
-         Left            =   9480
+         Left            =   -65520
          Style           =   2  'Dropdown List
          TabIndex        =   130
          Top             =   1320
@@ -901,7 +1009,7 @@ Begin VB.Form Form2
       Begin VB.ComboBox Combo1 
          Height          =   315
          Index           =   12
-         Left            =   9480
+         Left            =   -65520
          Style           =   2  'Dropdown List
          TabIndex        =   129
          Top             =   1680
@@ -910,7 +1018,7 @@ Begin VB.Form Form2
       Begin VB.ComboBox Combo1 
          Height          =   315
          Index           =   4
-         Left            =   3480
+         Left            =   -71520
          Style           =   2  'Dropdown List
          TabIndex        =   128
          Top             =   2400
@@ -919,7 +1027,7 @@ Begin VB.Form Form2
       Begin VB.ComboBox Combo1 
          Height          =   315
          Index           =   30
-         Left            =   13920
+         Left            =   -61080
          Style           =   2  'Dropdown List
          TabIndex        =   127
          Top             =   4080
@@ -928,7 +1036,7 @@ Begin VB.Form Form2
       Begin VB.ComboBox Combo1 
          Height          =   315
          Index           =   29
-         Left            =   13920
+         Left            =   -61080
          Style           =   2  'Dropdown List
          TabIndex        =   126
          Top             =   3240
@@ -937,7 +1045,7 @@ Begin VB.Form Form2
       Begin VB.ComboBox Combo1 
          Height          =   315
          Index           =   28
-         Left            =   13920
+         Left            =   -61080
          Style           =   2  'Dropdown List
          TabIndex        =   125
          Top             =   2400
@@ -946,7 +1054,7 @@ Begin VB.Form Form2
       Begin VB.ComboBox Combo1 
          Height          =   315
          Index           =   27
-         Left            =   13920
+         Left            =   -61080
          Style           =   2  'Dropdown List
          TabIndex        =   124
          Top             =   2040
@@ -955,7 +1063,7 @@ Begin VB.Form Form2
       Begin VB.ComboBox Combo1 
          Height          =   315
          Index           =   26
-         Left            =   13920
+         Left            =   -61080
          Style           =   2  'Dropdown List
          TabIndex        =   123
          Top             =   1680
@@ -964,7 +1072,7 @@ Begin VB.Form Form2
       Begin VB.ComboBox Combo1 
          Height          =   315
          Index           =   25
-         Left            =   13920
+         Left            =   -61080
          Style           =   2  'Dropdown List
          TabIndex        =   122
          Top             =   1320
@@ -973,7 +1081,7 @@ Begin VB.Form Form2
       Begin VB.ComboBox Combo1 
          Height          =   315
          Index           =   24
-         Left            =   13920
+         Left            =   -61080
          Style           =   2  'Dropdown List
          TabIndex        =   121
          Top             =   960
@@ -982,7 +1090,7 @@ Begin VB.Form Form2
       Begin VB.ComboBox Combo1 
          Height          =   315
          Index           =   23
-         Left            =   9480
+         Left            =   -65520
          Style           =   2  'Dropdown List
          TabIndex        =   120
          Top             =   4920
@@ -991,7 +1099,7 @@ Begin VB.Form Form2
       Begin VB.ComboBox Combo1 
          Height          =   315
          Index           =   22
-         Left            =   9480
+         Left            =   -65520
          Style           =   2  'Dropdown List
          TabIndex        =   119
          Top             =   4560
@@ -1000,7 +1108,7 @@ Begin VB.Form Form2
       Begin VB.ComboBox Combo1 
          Height          =   315
          Index           =   21
-         Left            =   9480
+         Left            =   -65520
          Style           =   2  'Dropdown List
          TabIndex        =   118
          Top             =   4200
@@ -1009,7 +1117,7 @@ Begin VB.Form Form2
       Begin VB.ComboBox Combo1 
          Height          =   315
          Index           =   20
-         Left            =   9480
+         Left            =   -65520
          Style           =   2  'Dropdown List
          TabIndex        =   117
          Top             =   3840
@@ -1018,7 +1126,7 @@ Begin VB.Form Form2
       Begin VB.ComboBox Combo1 
          Height          =   315
          Index           =   19
-         Left            =   9480
+         Left            =   -65520
          Style           =   2  'Dropdown List
          TabIndex        =   116
          Top             =   3480
@@ -1027,7 +1135,7 @@ Begin VB.Form Form2
       Begin VB.ComboBox Combo1 
          Height          =   315
          Index           =   18
-         Left            =   9480
+         Left            =   -65520
          Style           =   2  'Dropdown List
          TabIndex        =   115
          Top             =   3120
@@ -1036,7 +1144,7 @@ Begin VB.Form Form2
       Begin VB.ComboBox Combo1 
          Height          =   315
          Index           =   17
-         Left            =   9480
+         Left            =   -65520
          Style           =   2  'Dropdown List
          TabIndex        =   114
          Top             =   2760
@@ -1045,7 +1153,7 @@ Begin VB.Form Form2
       Begin VB.ComboBox Combo1 
          Height          =   315
          Index           =   16
-         Left            =   9480
+         Left            =   -65520
          Style           =   2  'Dropdown List
          TabIndex        =   113
          Top             =   2400
@@ -1054,7 +1162,7 @@ Begin VB.Form Form2
       Begin VB.ComboBox Combo1 
          Height          =   315
          Index           =   15
-         Left            =   9480
+         Left            =   -65520
          Style           =   2  'Dropdown List
          TabIndex        =   112
          Top             =   2040
@@ -1063,7 +1171,7 @@ Begin VB.Form Form2
       Begin VB.ComboBox Combo1 
          Height          =   315
          Index           =   11
-         Left            =   3480
+         Left            =   -71520
          Style           =   2  'Dropdown List
          TabIndex        =   111
          Top             =   4920
@@ -1072,7 +1180,7 @@ Begin VB.Form Form2
       Begin VB.ComboBox Combo1 
          Height          =   315
          Index           =   10
-         Left            =   3480
+         Left            =   -71520
          Style           =   2  'Dropdown List
          TabIndex        =   110
          Top             =   4560
@@ -1081,7 +1189,7 @@ Begin VB.Form Form2
       Begin VB.ComboBox Combo1 
          Height          =   315
          Index           =   9
-         Left            =   3480
+         Left            =   -71520
          Style           =   2  'Dropdown List
          TabIndex        =   109
          Top             =   4200
@@ -1090,7 +1198,7 @@ Begin VB.Form Form2
       Begin VB.ComboBox Combo1 
          Height          =   315
          Index           =   8
-         Left            =   3480
+         Left            =   -71520
          Style           =   2  'Dropdown List
          TabIndex        =   108
          Top             =   3840
@@ -1099,7 +1207,7 @@ Begin VB.Form Form2
       Begin VB.ComboBox Combo1 
          Height          =   315
          Index           =   7
-         Left            =   3480
+         Left            =   -71520
          Style           =   2  'Dropdown List
          TabIndex        =   107
          Top             =   3480
@@ -1108,7 +1216,7 @@ Begin VB.Form Form2
       Begin VB.ComboBox Combo1 
          Height          =   315
          Index           =   6
-         Left            =   3480
+         Left            =   -71520
          Style           =   2  'Dropdown List
          TabIndex        =   106
          Top             =   3120
@@ -1117,7 +1225,7 @@ Begin VB.Form Form2
       Begin VB.ComboBox Combo1 
          Height          =   315
          Index           =   5
-         Left            =   3480
+         Left            =   -71520
          Style           =   2  'Dropdown List
          TabIndex        =   105
          Top             =   2760
@@ -1126,7 +1234,7 @@ Begin VB.Form Form2
       Begin VB.ComboBox Combo1 
          Height          =   315
          Index           =   3
-         Left            =   3480
+         Left            =   -71520
          Style           =   2  'Dropdown List
          TabIndex        =   104
          Top             =   2040
@@ -1135,7 +1243,7 @@ Begin VB.Form Form2
       Begin VB.ComboBox Combo1 
          Height          =   315
          Index           =   2
-         Left            =   3480
+         Left            =   -71520
          Style           =   2  'Dropdown List
          TabIndex        =   103
          Top             =   1680
@@ -1144,7 +1252,7 @@ Begin VB.Form Form2
       Begin VB.ComboBox Combo1 
          Height          =   315
          Index           =   1
-         Left            =   3480
+         Left            =   -71520
          Style           =   2  'Dropdown List
          TabIndex        =   102
          Top             =   1320
@@ -1152,7 +1260,7 @@ Begin VB.Form Form2
       End
       Begin VB.ComboBox ComUsuario 
          Height          =   315
-         Left            =   10920
+         Left            =   -64080
          Style           =   2  'Dropdown List
          TabIndex        =   101
          Top             =   480
@@ -1161,7 +1269,7 @@ Begin VB.Form Form2
       Begin VB.ComboBox Combo1 
          Height          =   315
          Index           =   0
-         Left            =   3480
+         Left            =   -71520
          Style           =   2  'Dropdown List
          TabIndex        =   100
          Top             =   960
@@ -1183,7 +1291,7 @@ Begin VB.Form Form2
       End
       Begin TDBNumber6Ctl.TDBNumber TDBCodigo 
          Height          =   375
-         Left            =   1440
+         Left            =   -73560
          TabIndex        =   22
          Top             =   480
          Width           =   1095
@@ -1241,7 +1349,7 @@ Begin VB.Form Form2
       End
       Begin MSMask.MaskEdBox MasCodversao 
          Height          =   375
-         Left            =   7920
+         Left            =   -67080
          TabIndex        =   21
          Top             =   480
          Width           =   975
@@ -1254,7 +1362,7 @@ Begin VB.Form Form2
       End
       Begin MSMask.MaskEdBox MasData 
          Height          =   375
-         Left            =   4200
+         Left            =   -70800
          TabIndex        =   20
          Top             =   480
          Width           =   975
@@ -1292,7 +1400,7 @@ Begin VB.Form Form2
          BackStyle       =   0  'Transparent
          Caption         =   "Fatura Convenio:"
          Height          =   195
-         Left            =   -66360
+         Left            =   8640
          TabIndex        =   95
          Top             =   5280
          Width           =   1260
@@ -1302,7 +1410,7 @@ Begin VB.Form Form2
          BackStyle       =   0  'Transparent
          Caption         =   "Identificação de Cliente:"
          Height          =   195
-         Left            =   -66360
+         Left            =   8640
          TabIndex        =   94
          Top             =   4920
          Width           =   1755
@@ -1312,7 +1420,7 @@ Begin VB.Form Form2
          BackStyle       =   0  'Transparent
          Caption         =   "SGR - Importação de Comanda:"
          Height          =   195
-         Left            =   -66360
+         Left            =   8640
          TabIndex        =   93
          Top             =   4440
          Width           =   2280
@@ -1322,7 +1430,7 @@ Begin VB.Form Form2
          BackStyle       =   0  'Transparent
          Caption         =   "DAV - Faturamento:"
          Height          =   195
-         Left            =   -66360
+         Left            =   8640
          TabIndex        =   92
          Top             =   3960
          Width           =   1440
@@ -1332,7 +1440,7 @@ Begin VB.Form Form2
          BackStyle       =   0  'Transparent
          Caption         =   "DAV - Impressão:"
          Height          =   195
-         Left            =   -66360
+         Left            =   8640
          TabIndex        =   91
          Top             =   3480
          Width           =   1260
@@ -1342,7 +1450,7 @@ Begin VB.Form Form2
          BackStyle       =   0  'Transparent
          Caption         =   "Pedido de Venda:"
          Height          =   195
-         Left            =   -66360
+         Left            =   8640
          TabIndex        =   90
          Top             =   3000
          Width           =   1260
@@ -1352,7 +1460,7 @@ Begin VB.Form Form2
          BackStyle       =   0  'Transparent
          Caption         =   "Entrega:"
          Height          =   195
-         Left            =   -66360
+         Left            =   8640
          TabIndex        =   89
          Top             =   2520
          Width           =   630
@@ -1362,7 +1470,7 @@ Begin VB.Form Form2
          BackStyle       =   0  'Transparent
          Caption         =   "Fidelidade - Resgate por Faixa:"
          Height          =   195
-         Left            =   -66360
+         Left            =   8640
          TabIndex        =   88
          Top             =   2040
          Width           =   2250
@@ -1372,7 +1480,7 @@ Begin VB.Form Form2
          BackStyle       =   0  'Transparent
          Caption         =   "Fidelidade - Tabela Preço Negociação:"
          Height          =   195
-         Left            =   -66360
+         Left            =   8640
          TabIndex        =   87
          Top             =   1560
          Width           =   2730
@@ -1382,7 +1490,7 @@ Begin VB.Form Form2
          BackStyle       =   0  'Transparent
          Caption         =   "Fidelidade - Tabela Formação Preço:"
          Height          =   195
-         Left            =   -66360
+         Left            =   8640
          TabIndex        =   86
          Top             =   1080
          Width           =   2610
@@ -1392,14 +1500,14 @@ Begin VB.Form Form2
          BackStyle       =   0  'Transparent
          Caption         =   "Fidelidade:"
          Height          =   195
-         Left            =   -66360
+         Left            =   8640
          TabIndex        =   85
          Top             =   600
          Width           =   780
       End
       Begin VB.Line Line7 
-         X1              =   -66960
-         X2              =   -66960
+         X1              =   8040
+         X2              =   8040
          Y1              =   5400
          Y2              =   600
       End
@@ -1408,7 +1516,7 @@ Begin VB.Form Form2
          BackStyle       =   0  'Transparent
          Caption         =   "SG - Divergencia Painel SG RV x XML:"
          Height          =   195
-         Left            =   -74520
+         Left            =   480
          TabIndex        =   84
          Top             =   5040
          Width           =   2655
@@ -1418,7 +1526,7 @@ Begin VB.Form Form2
          BackStyle       =   0  'Transparent
          Caption         =   "SG - Processamento dos Arquivos RV e XML:"
          Height          =   195
-         Left            =   -74520
+         Left            =   480
          TabIndex        =   83
          Top             =   4560
          Width           =   3180
@@ -1428,7 +1536,7 @@ Begin VB.Form Form2
          BackStyle       =   0  'Transparent
          Caption         =   "Faixa de Numeração:"
          Height          =   195
-         Left            =   -74520
+         Left            =   480
          TabIndex        =   82
          Top             =   4080
          Width           =   1530
@@ -1438,7 +1546,7 @@ Begin VB.Form Form2
          BackStyle       =   0  'Transparent
          Caption         =   "Pendente (Transmissão):"
          Height          =   195
-         Left            =   -74520
+         Left            =   480
          TabIndex        =   81
          Top             =   3600
          Width           =   1800
@@ -1448,7 +1556,7 @@ Begin VB.Form Form2
          BackStyle       =   0  'Transparent
          Caption         =   "Pendente (Geração):"
          Height          =   195
-         Left            =   -74520
+         Left            =   480
          TabIndex        =   80
          Top             =   3120
          Width           =   1515
@@ -1458,7 +1566,7 @@ Begin VB.Form Form2
          BackStyle       =   0  'Transparent
          Caption         =   "Contingencia (Transmissão):"
          Height          =   195
-         Left            =   -74520
+         Left            =   480
          TabIndex        =   79
          Top             =   2640
          Width           =   2040
@@ -1468,7 +1576,7 @@ Begin VB.Form Form2
          BackStyle       =   0  'Transparent
          Caption         =   "Contingencia (Geração):"
          Height          =   195
-         Left            =   -74520
+         Left            =   480
          TabIndex        =   78
          Top             =   2160
          Width           =   1755
@@ -1478,7 +1586,7 @@ Begin VB.Form Form2
          BackStyle       =   0  'Transparent
          Caption         =   "Cancelamento:"
          Height          =   195
-         Left            =   -74520
+         Left            =   480
          TabIndex        =   77
          Top             =   1680
          Width           =   1080
@@ -1488,7 +1596,7 @@ Begin VB.Form Form2
          BackStyle       =   0  'Transparent
          Caption         =   "Impressão DANFE:"
          Height          =   195
-         Left            =   -74520
+         Left            =   480
          TabIndex        =   76
          Top             =   1200
          Width           =   1350
@@ -1498,7 +1606,7 @@ Begin VB.Form Form2
          BackStyle       =   0  'Transparent
          Caption         =   "Autorização SEFAZ:"
          Height          =   195
-         Left            =   -74520
+         Left            =   480
          TabIndex        =   75
          Top             =   720
          Width           =   1425
@@ -1839,7 +1947,7 @@ Begin VB.Form Form2
             Strikethrough   =   0   'False
          EndProperty
          Height          =   210
-         Left            =   9960
+         Left            =   -65040
          TabIndex        =   43
          Top             =   600
          Width           =   735
@@ -1849,7 +1957,7 @@ Begin VB.Form Form2
          BackStyle       =   0  'Transparent
          Caption         =   "Reimpressão - Todas Opções:"
          Height          =   195
-         Left            =   11880
+         Left            =   -63120
          TabIndex        =   42
          Top             =   3720
          Width           =   2145
@@ -1859,7 +1967,7 @@ Begin VB.Form Form2
          BackStyle       =   0  'Transparent
          Caption         =   "Validação Campos Impressão Cupom:"
          Height          =   195
-         Left            =   11880
+         Left            =   -63120
          TabIndex        =   41
          Top             =   2880
          Width           =   2685
@@ -1869,7 +1977,7 @@ Begin VB.Form Form2
          BackStyle       =   0  'Transparent
          Caption         =   "Recriar XML:"
          Height          =   195
-         Left            =   11880
+         Left            =   -63120
          TabIndex        =   40
          Top             =   2520
          Width           =   900
@@ -1879,7 +1987,7 @@ Begin VB.Form Form2
          BackStyle       =   0  'Transparent
          Caption         =   "Recriar RV:"
          Height          =   195
-         Left            =   11880
+         Left            =   -63120
          TabIndex        =   39
          Top             =   2160
          Width           =   810
@@ -1889,7 +1997,7 @@ Begin VB.Form Form2
          BackStyle       =   0  'Transparent
          Caption         =   "Fechamento do Dia:"
          Height          =   195
-         Left            =   11880
+         Left            =   -63120
          TabIndex        =   38
          Top             =   1800
          Width           =   1440
@@ -1899,7 +2007,7 @@ Begin VB.Form Form2
          BackStyle       =   0  'Transparent
          Caption         =   "Leitura X:"
          Height          =   195
-         Left            =   11880
+         Left            =   -63120
          TabIndex        =   37
          Top             =   1440
          Width           =   690
@@ -1909,14 +2017,14 @@ Begin VB.Form Form2
          BackStyle       =   0  'Transparent
          Caption         =   "Saída de Operador:"
          Height          =   195
-         Left            =   11880
+         Left            =   -63120
          TabIndex        =   36
          Top             =   1080
          Width           =   1410
       End
       Begin VB.Line Line4 
-         X1              =   5760
-         X2              =   5760
+         X1              =   -69240
+         X2              =   -69240
          Y1              =   5520
          Y2              =   1080
       End
@@ -1925,7 +2033,7 @@ Begin VB.Form Form2
          BackStyle       =   0  'Transparent
          Caption         =   "Entrada de Operador:"
          Height          =   195
-         Left            =   6240
+         Left            =   -68760
          TabIndex        =   35
          Top             =   5040
          Width           =   1590
@@ -1935,7 +2043,7 @@ Begin VB.Form Form2
          BackStyle       =   0  'Transparent
          Caption         =   "Fundo de Troco:"
          Height          =   195
-         Left            =   6240
+         Left            =   -68760
          TabIndex        =   34
          Top             =   4680
          Width           =   1185
@@ -1945,7 +2053,7 @@ Begin VB.Form Form2
          BackStyle       =   0  'Transparent
          Caption         =   "Sangria:"
          Height          =   195
-         Left            =   6240
+         Left            =   -68760
          TabIndex        =   33
          Top             =   4320
          Width           =   600
@@ -1955,7 +2063,7 @@ Begin VB.Form Form2
          BackStyle       =   0  'Transparent
          Caption         =   "Recuperação de Último Cupom:"
          Height          =   195
-         Left            =   6240
+         Left            =   -68760
          TabIndex        =   32
          Top             =   3960
          Width           =   2250
@@ -1965,7 +2073,7 @@ Begin VB.Form Form2
          BackStyle       =   0  'Transparent
          Caption         =   "Recuperação de Cupom Local:"
          Height          =   195
-         Left            =   6240
+         Left            =   -68760
          TabIndex        =   31
          Top             =   3600
          Width           =   2175
@@ -1975,7 +2083,7 @@ Begin VB.Form Form2
          BackStyle       =   0  'Transparent
          Caption         =   "Vasilhame:"
          Height          =   195
-         Left            =   6240
+         Left            =   -68760
          TabIndex        =   30
          Top             =   3240
          Width           =   765
@@ -1985,7 +2093,7 @@ Begin VB.Form Form2
          BackStyle       =   0  'Transparent
          Caption         =   "Etiqueta de Balança:"
          Height          =   195
-         Left            =   6240
+         Left            =   -68760
          TabIndex        =   29
          Top             =   2880
          Width           =   1485
@@ -1995,7 +2103,7 @@ Begin VB.Form Form2
          BackStyle       =   0  'Transparent
          Caption         =   "Gaveta:"
          Height          =   195
-         Left            =   6240
+         Left            =   -68760
          TabIndex        =   28
          Top             =   2520
          Width           =   585
@@ -2005,7 +2113,7 @@ Begin VB.Form Form2
          BackStyle       =   0  'Transparent
          Caption         =   "Balança:"
          Height          =   195
-         Left            =   6240
+         Left            =   -68760
          TabIndex        =   27
          Top             =   2160
          Width           =   615
@@ -2015,7 +2123,7 @@ Begin VB.Form Form2
          BackStyle       =   0  'Transparent
          Caption         =   "Scanner:"
          Height          =   195
-         Left            =   6240
+         Left            =   -68760
          TabIndex        =   26
          Top             =   1800
          Width           =   645
@@ -2026,7 +2134,7 @@ Begin VB.Form Form2
          Caption         =   "Acréscimo Subtotal ($):"
          Height          =   195
          Index           =   1
-         Left            =   6240
+         Left            =   -68760
          TabIndex        =   25
          Top             =   1440
          Width           =   1680
@@ -2037,15 +2145,15 @@ Begin VB.Form Form2
          Caption         =   "Acréscimo Subtotal (%):"
          Height          =   195
          Index           =   0
-         Left            =   6240
+         Left            =   -68760
          TabIndex        =   24
          Top             =   1080
          Width           =   1755
       End
       Begin VB.Line Line2 
          Index           =   0
-         X1              =   11520
-         X2              =   11520
+         X1              =   -63480
+         X2              =   -63480
          Y1              =   5520
          Y2              =   1080
       End
@@ -2054,7 +2162,7 @@ Begin VB.Form Form2
          BackStyle       =   0  'Transparent
          Caption         =   "Desconto Finalizadora:"
          Height          =   195
-         Left            =   360
+         Left            =   -74640
          TabIndex        =   19
          Top             =   5040
          Width           =   1635
@@ -2065,7 +2173,7 @@ Begin VB.Form Form2
          Caption         =   "Desconto Subtotal ($):"
          Height          =   195
          Index           =   1
-         Left            =   360
+         Left            =   -74640
          TabIndex        =   18
          Top             =   4680
          Width           =   1635
@@ -2076,7 +2184,7 @@ Begin VB.Form Form2
          Caption         =   "Desconto Subtotal (%):"
          Height          =   195
          Index           =   0
-         Left            =   360
+         Left            =   -74640
          TabIndex        =   17
          Top             =   4320
          Width           =   1710
@@ -2087,7 +2195,7 @@ Begin VB.Form Form2
          Caption         =   "Desconto Item ($):"
          Height          =   195
          Index           =   1
-         Left            =   360
+         Left            =   -74640
          TabIndex        =   16
          Top             =   3960
          Width           =   1365
@@ -2098,7 +2206,7 @@ Begin VB.Form Form2
          Caption         =   "Desconto Item (%):"
          Height          =   195
          Index           =   0
-         Left            =   360
+         Left            =   -74640
          TabIndex        =   15
          Top             =   3600
          Width           =   1440
@@ -2108,7 +2216,7 @@ Begin VB.Form Form2
          BackStyle       =   0  'Transparent
          Caption         =   "Cancelamento Cupom:"
          Height          =   195
-         Left            =   360
+         Left            =   -74640
          TabIndex        =   14
          Top             =   3240
          Width           =   1620
@@ -2118,7 +2226,7 @@ Begin VB.Form Form2
          BackStyle       =   0  'Transparent
          Caption         =   "Cancelamento Subtotal:"
          Height          =   195
-         Left            =   360
+         Left            =   -74640
          TabIndex        =   13
          Top             =   2880
          Width           =   1725
@@ -2128,7 +2236,7 @@ Begin VB.Form Form2
          BackStyle       =   0  'Transparent
          Caption         =   "Cancelamento Item:"
          Height          =   195
-         Left            =   360
+         Left            =   -74640
          TabIndex        =   12
          Top             =   2520
          Width           =   1455
@@ -2138,7 +2246,7 @@ Begin VB.Form Form2
          BackStyle       =   0  'Transparent
          Caption         =   "Troco:"
          Height          =   195
-         Left            =   360
+         Left            =   -74640
          TabIndex        =   11
          Top             =   2160
          Width           =   465
@@ -2148,7 +2256,7 @@ Begin VB.Form Form2
          BackStyle       =   0  'Transparent
          Caption         =   "Pagamento/ Fechamento Compra:"
          Height          =   195
-         Left            =   360
+         Left            =   -74640
          TabIndex        =   10
          Top             =   1800
          Width           =   2460
@@ -2158,7 +2266,7 @@ Begin VB.Form Form2
          BackStyle       =   0  'Transparent
          Caption         =   "Consulta de Produto:"
          Height          =   195
-         Left            =   360
+         Left            =   -74640
          TabIndex        =   9
          Top             =   1440
          Width           =   1530
@@ -2168,7 +2276,7 @@ Begin VB.Form Form2
          BackStyle       =   0  'Transparent
          Caption         =   "Pesquisa de Produto:"
          Height          =   195
-         Left            =   360
+         Left            =   -74640
          TabIndex        =   8
          Top             =   1080
          Width           =   1530
@@ -2187,7 +2295,7 @@ Begin VB.Form Form2
             Strikethrough   =   0   'False
          EndProperty
          Height          =   210
-         Left            =   6240
+         Left            =   -68760
          TabIndex        =   7
          Top             =   600
          Width           =   1665
@@ -2206,7 +2314,7 @@ Begin VB.Form Form2
             Strikethrough   =   0   'False
          EndProperty
          Height          =   210
-         Left            =   3600
+         Left            =   -71400
          TabIndex        =   6
          Top             =   600
          Width           =   495
@@ -2225,7 +2333,7 @@ Begin VB.Form Form2
             Strikethrough   =   0   'False
          EndProperty
          Height          =   210
-         Left            =   600
+         Left            =   -74400
          TabIndex        =   5
          Top             =   600
          Width           =   705
@@ -2263,10 +2371,11 @@ Dim Count As Integer
 resposta = MsgBox("Deseja cancelar a operação?", vbYesNo, "Atenção")
 If resposta = vbYes Then
 Count = 0
-ResetarCampos
+
     If cmdGravar.Caption = "Gravar" Then
     cn.Execute "delete from testes where versao = '" & MasCodversao.Text & "'"
     End If
+ResetarCampos
 End If
 
 End Sub
