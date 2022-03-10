@@ -3,7 +3,7 @@ Public rs                           As New ADODB.Recordset
 Public cn                           As New ADODB.Connection
 Public rsTemp                       As New ADODB.Recordset
 Public Const sUsuario               As String = "adminlinear"
-Public Const sSenha                 As String = "@2013linear"
+Public Const sSenha                 As String = "@senhalinear"
 Public Const cNomeBanco             As String = "apptestes"
 Public Const sServer                As String = "localhost"
 Dim LinearSegurancaDLL As Object
