@@ -23,6 +23,23 @@ Begin VB.Form Form2
    MinButton       =   0   'False
    ScaleHeight     =   6330
    ScaleWidth      =   16320
+   Begin VB.CommandButton cmdCarregar 
+      Caption         =   "Carregar"
+      BeginProperty Font 
+         Name            =   "Tahoma"
+         Size            =   9
+         Charset         =   0
+         Weight          =   700
+         Underline       =   0   'False
+         Italic          =   0   'False
+         Strikethrough   =   0   'False
+      EndProperty
+      Height          =   360
+      Left            =   2760
+      TabIndex        =   186
+      Top             =   5880
+      Width           =   1215
+   End
    Begin VB.CommandButton cmdLegendaSituações 
       Caption         =   "Legenda Situações"
       BeginProperty Font 
@@ -205,7 +222,7 @@ Begin VB.Form Form2
       Tab(0).Control(39).Enabled=   0   'False
       Tab(0).Control(40)=   "Combo1(0)"
       Tab(0).Control(40).Enabled=   0   'False
-      Tab(0).Control(41)=   "Combo32"
+      Tab(0).Control(41)=   "ComUsuario"
       Tab(0).Control(41).Enabled=   0   'False
       Tab(0).Control(42)=   "Combo1(1)"
       Tab(0).Control(42).Enabled=   0   'False
@@ -271,129 +288,129 @@ Begin VB.Form Form2
       TabCaption(1)   =   "Promoções/ Integrações"
       TabPicture(1)   =   "Form2.frx":001C
       Tab(1).ControlEnabled=   0   'False
-      Tab(1).Control(0)=   "lblPromoçãoDeProdutos"
-      Tab(1).Control(1)=   "lblPromoçãoComQuantidade"
-      Tab(1).Control(2)=   "lblLeveEPague"
-      Tab(1).Control(3)=   "lblPremioOuDesconto"
-      Tab(1).Control(4)=   "lblValorDeVenda"
-      Tab(1).Control(5)=   "lblValorDoPack"
-      Tab(1).Control(6)=   "lblAtacarejoPagueMenos"
-      Tab(1).Control(7)=   "lblAtacarejoCadastroDe"
-      Tab(1).Control(8)=   "lblListaDeProdutos"
-      Tab(1).Control(9)=   "Line5"
-      Tab(1).Control(10)=   "lblBondsClub"
-      Tab(1).Control(11)=   "lblLeCupom"
-      Tab(1).Control(12)=   "lblEPromo"
-      Tab(1).Control(13)=   "lblMercaFacil"
-      Tab(1).Control(14)=   "lblScanntech"
-      Tab(1).Control(15)=   "lblMeliuz"
+      Tab(1).Control(0)=   "Combo1(46)"
+      Tab(1).Control(1)=   "Combo1(45)"
+      Tab(1).Control(2)=   "Combo1(44)"
+      Tab(1).Control(3)=   "Combo1(43)"
+      Tab(1).Control(4)=   "Combo1(42)"
+      Tab(1).Control(5)=   "Combo1(41)"
+      Tab(1).Control(6)=   "Combo1(40)"
+      Tab(1).Control(7)=   "Combo1(39)"
+      Tab(1).Control(8)=   "Combo1(38)"
+      Tab(1).Control(9)=   "Combo1(37)"
+      Tab(1).Control(10)=   "Combo1(36)"
+      Tab(1).Control(11)=   "Combo1(35)"
+      Tab(1).Control(12)=   "Combo1(34)"
+      Tab(1).Control(13)=   "Combo1(33)"
+      Tab(1).Control(14)=   "Combo1(32)"
+      Tab(1).Control(15)=   "Combo1(31)"
       Tab(1).Control(16)=   "lblSiteMercado"
-      Tab(1).Control(17)=   "Combo1(31)"
-      Tab(1).Control(18)=   "Combo1(32)"
-      Tab(1).Control(19)=   "Combo1(33)"
-      Tab(1).Control(20)=   "Combo1(34)"
-      Tab(1).Control(21)=   "Combo1(35)"
-      Tab(1).Control(22)=   "Combo1(36)"
-      Tab(1).Control(23)=   "Combo1(37)"
-      Tab(1).Control(24)=   "Combo1(38)"
-      Tab(1).Control(25)=   "Combo1(39)"
-      Tab(1).Control(26)=   "Combo1(40)"
-      Tab(1).Control(27)=   "Combo1(41)"
-      Tab(1).Control(28)=   "Combo1(42)"
-      Tab(1).Control(29)=   "Combo1(43)"
-      Tab(1).Control(30)=   "Combo1(44)"
-      Tab(1).Control(31)=   "Combo1(45)"
-      Tab(1).Control(32)=   "Combo1(46)"
+      Tab(1).Control(17)=   "lblMeliuz"
+      Tab(1).Control(18)=   "lblScanntech"
+      Tab(1).Control(19)=   "lblMercaFacil"
+      Tab(1).Control(20)=   "lblEPromo"
+      Tab(1).Control(21)=   "lblLeCupom"
+      Tab(1).Control(22)=   "lblBondsClub"
+      Tab(1).Control(23)=   "Line5"
+      Tab(1).Control(24)=   "lblListaDeProdutos"
+      Tab(1).Control(25)=   "lblAtacarejoCadastroDe"
+      Tab(1).Control(26)=   "lblAtacarejoPagueMenos"
+      Tab(1).Control(27)=   "lblValorDoPack"
+      Tab(1).Control(28)=   "lblValorDeVenda"
+      Tab(1).Control(29)=   "lblPremioOuDesconto"
+      Tab(1).Control(30)=   "lblLeveEPague"
+      Tab(1).Control(31)=   "lblPromoçãoComQuantidade"
+      Tab(1).Control(32)=   "lblPromoçãoDeProdutos"
       Tab(1).ControlCount=   33
       TabCaption(2)   =   "Formas de Pagamento/ Carga"
       TabPicture(2)   =   "Form2.frx":0038
       Tab(2).ControlEnabled=   0   'False
-      Tab(2).Control(0)=   "lblDinheiro"
-      Tab(2).Control(1)=   "lblTEF"
-      Tab(2).Control(2)=   "lblConvenioOnline"
-      Tab(2).Control(3)=   "lblConvenioOffline"
-      Tab(2).Control(4)=   "lblVendaEmDuas"
-      Tab(2).Control(5)=   "lblChequeTesteOpcional"
-      Tab(2).Control(6)=   "lblChequePréTeste"
-      Tab(2).Control(7)=   "lblRecebimentoVendaA"
-      Tab(2).Control(8)=   "lblPIXPicPay"
-      Tab(2).Control(9)=   "Line6"
-      Tab(2).Control(10)=   "lblProdutoTotal"
-      Tab(2).Control(11)=   "lblProdutoAlterado"
-      Tab(2).Control(12)=   "lblProdutoSelecionado"
-      Tab(2).Control(13)=   "lblPromoção"
-      Tab(2).Control(14)=   "lblOperador"
+      Tab(2).Control(0)=   "Combo1(61)"
+      Tab(2).Control(1)=   "Combo1(60)"
+      Tab(2).Control(2)=   "Combo1(59)"
+      Tab(2).Control(3)=   "Combo1(58)"
+      Tab(2).Control(4)=   "Combo1(57)"
+      Tab(2).Control(5)=   "Combo1(56)"
+      Tab(2).Control(6)=   "Combo1(55)"
+      Tab(2).Control(7)=   "Combo1(54)"
+      Tab(2).Control(8)=   "Combo1(53)"
+      Tab(2).Control(9)=   "Combo1(52)"
+      Tab(2).Control(10)=   "Combo1(51)"
+      Tab(2).Control(11)=   "Combo1(50)"
+      Tab(2).Control(12)=   "Combo1(49)"
+      Tab(2).Control(13)=   "Combo1(48)"
+      Tab(2).Control(14)=   "Combo1(47)"
       Tab(2).Control(15)=   "lblFinalizadora"
-      Tab(2).Control(16)=   "Combo1(47)"
-      Tab(2).Control(17)=   "Combo1(48)"
-      Tab(2).Control(18)=   "Combo1(49)"
-      Tab(2).Control(19)=   "Combo1(50)"
-      Tab(2).Control(20)=   "Combo1(51)"
-      Tab(2).Control(21)=   "Combo1(52)"
-      Tab(2).Control(22)=   "Combo1(53)"
-      Tab(2).Control(23)=   "Combo1(54)"
-      Tab(2).Control(24)=   "Combo1(55)"
-      Tab(2).Control(25)=   "Combo1(56)"
-      Tab(2).Control(26)=   "Combo1(57)"
-      Tab(2).Control(27)=   "Combo1(58)"
-      Tab(2).Control(28)=   "Combo1(59)"
-      Tab(2).Control(29)=   "Combo1(60)"
-      Tab(2).Control(30)=   "Combo1(61)"
+      Tab(2).Control(16)=   "lblOperador"
+      Tab(2).Control(17)=   "lblPromoção"
+      Tab(2).Control(18)=   "lblProdutoSelecionado"
+      Tab(2).Control(19)=   "lblProdutoAlterado"
+      Tab(2).Control(20)=   "lblProdutoTotal"
+      Tab(2).Control(21)=   "Line6"
+      Tab(2).Control(22)=   "lblPIXPicPay"
+      Tab(2).Control(23)=   "lblRecebimentoVendaA"
+      Tab(2).Control(24)=   "lblChequePréTeste"
+      Tab(2).Control(25)=   "lblChequeTesteOpcional"
+      Tab(2).Control(26)=   "lblVendaEmDuas"
+      Tab(2).Control(27)=   "lblConvenioOffline"
+      Tab(2).Control(28)=   "lblConvenioOnline"
+      Tab(2).Control(29)=   "lblTEF"
+      Tab(2).Control(30)=   "lblDinheiro"
       Tab(2).ControlCount=   31
       TabCaption(3)   =   "NFCe/ WSLinear/ Outras Operações"
       TabPicture(3)   =   "Form2.frx":0054
       Tab(3).ControlEnabled=   0   'False
-      Tab(3).Control(0)=   "Combo1(82)"
-      Tab(3).Control(1)=   "Combo1(81)"
-      Tab(3).Control(2)=   "Combo1(80)"
-      Tab(3).Control(3)=   "Combo1(79)"
-      Tab(3).Control(4)=   "Combo1(78)"
-      Tab(3).Control(5)=   "Combo1(77)"
-      Tab(3).Control(6)=   "Combo1(76)"
-      Tab(3).Control(7)=   "Combo1(75)"
-      Tab(3).Control(8)=   "Combo1(74)"
-      Tab(3).Control(9)=   "Combo1(73)"
-      Tab(3).Control(10)=   "Combo1(72)"
-      Tab(3).Control(11)=   "Combo1(71)"
-      Tab(3).Control(12)=   "Combo1(70)"
-      Tab(3).Control(13)=   "Combo1(69)"
-      Tab(3).Control(14)=   "Combo1(68)"
-      Tab(3).Control(15)=   "Combo1(67)"
-      Tab(3).Control(16)=   "Combo1(66)"
-      Tab(3).Control(17)=   "Combo1(65)"
-      Tab(3).Control(18)=   "Combo1(64)"
-      Tab(3).Control(19)=   "Combo1(63)"
-      Tab(3).Control(20)=   "Combo1(62)"
+      Tab(3).Control(0)=   "lblAutorizaçãoSEFAZ"
+      Tab(3).Control(1)=   "lblImpressãoDANFE"
+      Tab(3).Control(2)=   "lblCancelamento"
+      Tab(3).Control(3)=   "lblContingenciaGeração"
+      Tab(3).Control(4)=   "lblContingenciaTransmissão"
+      Tab(3).Control(5)=   "lblPendenteGeração"
+      Tab(3).Control(6)=   "lblPendenteTransmissão"
+      Tab(3).Control(7)=   "lblFaixaDeNumeração"
+      Tab(3).Control(8)=   "lblSGProcessamentoDos"
+      Tab(3).Control(9)=   "lblSGDivergenciaPainel"
+      Tab(3).Control(10)=   "Line7"
+      Tab(3).Control(11)=   "lblFidelidade"
+      Tab(3).Control(12)=   "lblFidelidadeTabelaFormação"
+      Tab(3).Control(13)=   "lblFidelidadeTabelaPreço"
+      Tab(3).Control(14)=   "lblFidelidadeResgatePor"
+      Tab(3).Control(15)=   "lblEntrega"
+      Tab(3).Control(16)=   "lblPedidoDeVenda"
+      Tab(3).Control(17)=   "lblDAVImpressão"
+      Tab(3).Control(18)=   "lblDAVFaturamento"
+      Tab(3).Control(19)=   "lblSGRImportaçãoDe"
+      Tab(3).Control(20)=   "lblIdentificaçãoDeCliente"
       Tab(3).Control(21)=   "lblFaturaConvenio"
-      Tab(3).Control(22)=   "lblIdentificaçãoDeCliente"
-      Tab(3).Control(23)=   "lblSGRImportaçãoDe"
-      Tab(3).Control(24)=   "lblDAVFaturamento"
-      Tab(3).Control(25)=   "lblDAVImpressão"
-      Tab(3).Control(26)=   "lblPedidoDeVenda"
-      Tab(3).Control(27)=   "lblEntrega"
-      Tab(3).Control(28)=   "lblFidelidadeResgatePor"
-      Tab(3).Control(29)=   "lblFidelidadeTabelaPreço"
-      Tab(3).Control(30)=   "lblFidelidadeTabelaFormação"
-      Tab(3).Control(31)=   "lblFidelidade"
-      Tab(3).Control(32)=   "Line7"
-      Tab(3).Control(33)=   "lblSGDivergenciaPainel"
-      Tab(3).Control(34)=   "lblSGProcessamentoDos"
-      Tab(3).Control(35)=   "lblFaixaDeNumeração"
-      Tab(3).Control(36)=   "lblPendenteTransmissão"
-      Tab(3).Control(37)=   "lblPendenteGeração"
-      Tab(3).Control(38)=   "lblContingenciaTransmissão"
-      Tab(3).Control(39)=   "lblContingenciaGeração"
-      Tab(3).Control(40)=   "lblCancelamento"
-      Tab(3).Control(41)=   "lblImpressãoDANFE"
-      Tab(3).Control(42)=   "lblAutorizaçãoSEFAZ"
+      Tab(3).Control(22)=   "Combo1(62)"
+      Tab(3).Control(23)=   "Combo1(63)"
+      Tab(3).Control(24)=   "Combo1(64)"
+      Tab(3).Control(25)=   "Combo1(65)"
+      Tab(3).Control(26)=   "Combo1(66)"
+      Tab(3).Control(27)=   "Combo1(67)"
+      Tab(3).Control(28)=   "Combo1(68)"
+      Tab(3).Control(29)=   "Combo1(69)"
+      Tab(3).Control(30)=   "Combo1(70)"
+      Tab(3).Control(31)=   "Combo1(71)"
+      Tab(3).Control(32)=   "Combo1(72)"
+      Tab(3).Control(33)=   "Combo1(73)"
+      Tab(3).Control(34)=   "Combo1(74)"
+      Tab(3).Control(35)=   "Combo1(75)"
+      Tab(3).Control(36)=   "Combo1(76)"
+      Tab(3).Control(37)=   "Combo1(77)"
+      Tab(3).Control(38)=   "Combo1(78)"
+      Tab(3).Control(39)=   "Combo1(79)"
+      Tab(3).Control(40)=   "Combo1(80)"
+      Tab(3).Control(41)=   "Combo1(81)"
+      Tab(3).Control(42)=   "Combo1(82)"
       Tab(3).ControlCount=   43
       TabCaption(4)   =   "Observações"
       TabPicture(4)   =   "Form2.frx":0070
       Tab(4).ControlEnabled=   0   'False
-      Tab(4).Control(0)=   "txtIoty"
-      Tab(4).Control(1)=   "txtObservações"
-      Tab(4).Control(2)=   "lblCasosIotyCadastrados"
-      Tab(4).Control(3)=   "lblObservaçõesGerais"
+      Tab(4).Control(0)=   "lblObservaçõesGerais"
+      Tab(4).Control(1)=   "lblCasosIotyCadastrados"
+      Tab(4).Control(2)=   "txtObservações"
+      Tab(4).Control(3)=   "txtIoty"
       Tab(4).ControlCount=   4
       Begin VB.ComboBox Combo1 
          Height          =   315
@@ -1133,7 +1150,7 @@ Begin VB.Form Form2
          Top             =   1320
          Width           =   1575
       End
-      Begin VB.ComboBox Combo32 
+      Begin VB.ComboBox ComUsuario 
          Height          =   315
          Left            =   10920
          Style           =   2  'Dropdown List
@@ -1196,12 +1213,12 @@ Begin VB.Form Form2
          ClipMode        =   0
          ClearAction     =   0
          DecimalPoint    =   ","
-         DisplayFormat   =   "####0;;Null"
+         DisplayFormat   =   "######0;;Null"
          EditMode        =   0
-         Enabled         =   -1
+         Enabled         =   0
          ErrorBeep       =   0
          ForeColor       =   -2147483640
-         Format          =   "####0"
+         Format          =   "######0"
          HighlightText   =   0
          MarginBottom    =   1
          MarginLeft      =   1
@@ -1244,6 +1261,7 @@ Begin VB.Form Form2
          _ExtentX        =   1720
          _ExtentY        =   661
          _Version        =   393216
+         Enabled         =   0   'False
          MaxLength       =   10
          Format          =   "dd-mmm-yy"
          Mask            =   "99/99/9999"
@@ -2272,27 +2290,53 @@ Attribute VB_GlobalNameSpace = False
 Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
+Dim status(1 To 3) As String
+
 Private Sub FraConfigGerais_DragDrop(Source As Control, X As Single, Y As Single)
 
 End Sub
 
 Private Sub cmdCancelar_Click()
 Dim resposta As Integer
-Dim count As Integer
+Dim Count As Integer
 
 resposta = MsgBox("Deseja cancelar a operação?", vbYesNo, "Atenção")
 If resposta = vbYes Then
-count = 0
-Do While (count <= 82)
-Combo1(count).Clear
-Combo1(count).Enabled = False
-count = count + 1
-Loop
-cmdGravar.Enabled = False
-cmdCancelar.Enabled = False
-cmdSair.Enabled = True
-cmdNovo.Enabled = True
-      Else
+Count = 0
+ResetarCampos
+    If cmdGravar.Caption = "Gravar" Then
+    cn.Execute "delete from testes where versao = '" & MasCodversao.Text & "'"
+    End If
+End If
+
+End Sub
+
+Private Sub cmdCarregar_Click()
+If MasCodversao.Text = "__.__.__" Then
+    MsgBox "Selecione o Código da versão"
+    Exit Sub
+End If
+If Not ExisteVersao(MasCodversao.Text) Then
+    MsgBox "Não foi encontrado nenhum teste para este versionamento"
+    Exit Sub
+End If
+
+    CarregarTeste (MasCodversao.Text)
+    
+    cmdCancelar.Enabled = True
+    cmdGravar.Caption = "Alterar"
+    cmdGravar.Enabled = True
+    cmdNovo.Enabled = False
+    cmdCarregar.Enabled = False
+    MasCodversao.Enabled = False
+    ComUsuario.Enabled = False
+End Sub
+
+Private Sub cmdGravar_Click()
+If (GravarTeste(MasCodversao.Text)) Then
+MsgBox "Teste da versão " & MasCodversao.Text & " salvo com Sucesso"
+
+ResetarCampos
 End If
 
 End Sub
@@ -2302,18 +2346,31 @@ Form3.Show vbModal
 End Sub
 
 Private Sub cmdNovo_Click()
-Dim count As Integer
+Dim Count As Integer
 Dim habilitar As Integer
 
-count = 0
-Do While (count <= 82)
-Combo1(count).Enabled = True
-Combo1(count).AddItem ("OK")
-Combo1(count).AddItem ("PARCIAL")
-Combo1(count).AddItem ("ERRO")
-count = count + 1
+If MasCodversao.Text = "__.__.__" Or ComUsuario.Text = "" Then
+    MsgBox "Selecione as Informações do Teste"
+    Exit Sub
+End If
+MasData.Text = Format(Now, "dd/mm/yyyy")
+'TDBCodigo.Text = Val(Replace$(MasCodversao.Text, ".", ""))
+If ExisteVersao(MasCodversao.Text) Then
+    MsgBox "Já foi realizado um teste para este versionamento, carregue-o."
+    Exit Sub
+End If
+    Call CriarNovoTeste(MasData.Text, MasCodversao.Text, EncontraCodUsuario(ComUsuario.Text))
+Count = 0
+Do While (Count <= Combo1.Count - 1)
+Combo1(Count).Enabled = True
+For Each Item In status
+  Combo1(Count).AddItem (Item)
+Next
+Count = Count + 1
 Loop
 
+MasCodversao.Enabled = False
+ComUsuario.Enabled = False
 cmdGravar.Enabled = True
 cmdCancelar.Enabled = True
 cmdSair.Enabled = False
@@ -2326,18 +2383,173 @@ Unload Form1
 End Sub
 
 Private Sub Form_Load()
-Dim count As Integer
-count = 0
-Do While (count <= 82)
-Combo1(count).Enabled = False
-count = count + 1
-Loop
-
+Dim Count As Integer
+Count = 0
+MasData.Text = Format(Now, "dd/mm/yyyy")
 'desabilitando botões
 cmdGravar.Enabled = False
 cmdCancelar.Enabled = False
+Do While (Count <= Combo1.Count - 1)
+Combo1(Count).Enabled = False
+Count = Count + 1
+Loop
 
 
-
+CarregaUsuariosCombo
+CarregaVarStatusTeste
 End Sub
 
+Private Sub CarregaUsuariosCombo()
+csql = "select * from usuarios"
+rs.Open csql, cn, adOpenStatic, adLockReadOnly
+Do While Not rs.EOF
+ComUsuario.AddItem (rs!nome)
+rs.MoveNext
+Loop
+rs.Close
+Set rs = Nothing
+
+End Sub
+Private Sub CriarNovoTeste(data As Variant, versao As String, codUsuario As Integer)
+If Not IsDate(data) Then
+    Exit Sub
+End If
+
+csql = "insert into testes ( data, versao , usuario_id) "
+csql = csql & " values('" & Format(data, "yyyy-mm-dd") & "' , '" & versao & "'," & codUsuario & ")"
+cn.Execute csql
+End Sub
+
+Private Sub CarregaVarStatusTeste()
+Dim Count As Integer
+csql = "select * from status_testes"
+rs.Open csql, cn, adOpenStatic, adLockReadOnly
+Count = 1
+Do While Not rs.EOF
+status(Count) = rs!status
+Count = Count + 1
+rs.MoveNext
+Loop
+rs.Close
+Set rs = Nothing
+End Sub
+
+
+Private Function ExisteVersao(versao As String) As Boolean
+Dim retorno As Boolean
+retorno = False
+csql = "select * from testes where versao = '" & versao & "'"
+rs.Open csql, cn, adOpenStatic, adLockReadOnly
+If Not rs.EOF Then
+retorno = True
+End If
+rs.Close
+Set rs = Nothing
+
+ExisteVersao = retorno
+End Function
+
+Private Sub CarregarTeste(versao As String)
+Dim Count As Integer
+Do While (Count <= Combo1.Count - 1)
+Combo1(Count).Enabled = True
+For Each Item In status
+  Combo1(Count).AddItem (Item)
+Next
+Count = Count + 1
+Loop
+
+'Informações iniciais
+csql = "select t.*, u.nome from testes t " & "inner join usuarios u on t.usuario_id = u.id " & " where versao = '" & versao & "'"
+rs.Open csql, cn, adOpenStatic, adLockReadOnly
+If Not rs.EOF Then
+TDBCodigo.Text = rs!id
+MasData.Text = Format(rs!data, "dd/mm/yyyy")
+ComUsuario.Text = rs!nome
+End If
+rs.Close
+Set rs = Nothing
+'Processamentos Gerais
+csql = "select p.* from testes_procgerais p inner join testes t on t.id = p.teste_id where versao = '" & versao & "'"
+rs.Open csql, cn, adOpenStatic, adLockReadOnly
+If Not rs.EOF Then
+For Counter = 0 To 30
+    Combo1(Counter).ListIndex = EncontraCodStatus(rs(Counter + 1)) - 1
+    DoEvents
+Next
+End If
+rs.Close
+Set rs = Nothing
+End Sub
+
+Private Function GravarTeste(versao As String) As Boolean
+'Gravando Processamentos Gerais
+Dim colunas As Integer
+Dim Count As Integer
+Dim TempSQL As String
+Dim NewSql As String
+Count = 0
+NewSql = "replace into testes_procgerais values("
+NewSql = NewSql & EncontraCodTeste(MasCodversao.Text) & ","
+TempSQL = "SELECT (COUNT(*)-2) as colunas FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = 'apptestes' AND TABLE_NAME = 'testes_procgerais'"
+rs.Open TempSQL, cn, adOpenStatic, adLockReadOnly
+If Not rs.EOF Then
+colunas = rs(0)
+End If
+Do While Count <= colunas
+NewSql = NewSql & "'" & Combo1(Count).Text & IIf(Count = colunas, "'", "',")
+Count = Count + 1
+Loop
+NewSql = NewSql & ")"
+cn.Execute NewSql
+rs.Close
+Set rs = Nothing
+GravarTeste = True
+End Function
+
+Private Function EncontraCodTeste(versao As String) As Integer
+Dim retorno As Integer
+csql = "select t.id from testes t where versao = '" & versao & "'"
+
+rs.Open csql, cn, adOpenStatic, adLockReadOnly
+If Not rs.EOF Then
+retorno = Val(rs!id)
+End If
+rs.Close
+Set rs = Nothing
+
+EncontraCodTeste = retorno
+End Function
+
+Public Function EncontraCodStatus(status_ As String) As Integer
+Dim Count As Integer
+Count = 1
+For Each Item In status
+    If Item = status_ Then
+        GoTo Fim
+    End If
+    Count = Count + 1
+Next
+Count = 0
+Fim:
+EncontraCodStatus = Count
+End Function
+
+Public Sub ResetarCampos()
+Dim Count As Integer
+Count = 0
+Do While (Count <= Combo1.Count - 1)
+Combo1(Count).Clear
+Combo1(Count).Enabled = False
+Count = Count + 1
+Loop
+MasCodversao.Enabled = True
+ComUsuario.Enabled = True
+cmdGravar.Enabled = False
+cmdCancelar.Enabled = False
+cmdSair.Enabled = True
+cmdNovo.Enabled = True
+cmdCarregar.Enabled = True
+
+cmdGravar.Caption = "Gravar"
+End Sub

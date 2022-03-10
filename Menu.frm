@@ -89,3 +89,7 @@ Private Sub cmdSGLinear_Click()
 msg = MsgBox("Aguarde, estamos em construção", vbInformation, "Aguarde")
 End Sub
 
+Private Sub Form_Load()
+Call SenhaLinear
+Call Abre_Conexao
+End Sub
