@@ -176,8 +176,8 @@ CREATE TABLE IF NOT EXISTS `testes_nfce_ws_outros` (
 -- Copiando estrutura para tabela apptestes.testes_observacao
 CREATE TABLE IF NOT EXISTS `testes_observacao` (
   `teste_id` int(11) NOT NULL,
-  `observacao` LONGTEXT NOT NULL COLLATE,
-  `caso_ioty` LONGTEXT NOT NULL COLLATE,
+  `observacao` LONGTEXT NOT NULL,
+  `caso_ioty` LONGTEXT NOT NULL,
   PRIMARY KEY (`teste_id`),
   CONSTRAINT `FK_testes_observacao_carga_testes` FOREIGN KEY (`teste_id`) REFERENCES `testes` (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
@@ -197,11 +197,11 @@ CREATE TABLE IF NOT EXISTS `usuarios` (
 /*!40000 ALTER TABLE `usuarios` DISABLE KEYS */;
 INSERT INTO `usuarios` (`id`, `nome`) VALUES
 	(1, 'LUIZ GUSTAVO'),
-	(2, 'GABRIEL SAMPAIO');
-	(3, 'JOAO MARQUES');
-	(4, 'GISELLE VIEIRA');
-	(5, 'NILMA FERRAZ');
-	(6, 'ALBERTO OLIVEIRA');
+	(2, 'GABRIEL SAMPAIO'),
+	(3, 'JOAO MARQUES'),
+	(4, 'GISELLE VIEIRA'),
+	(5, 'NILMA FERRAZ'),
+	(6, 'ALBERTO OLIVEIRA'),
 	(7, 'CLEVERTON SILVA');
 /*!40000 ALTER TABLE `usuarios` ENABLE KEYS */;
 
